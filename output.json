@@ -1,1 +1,327 @@
-[{"num_closed": [3, 1, 6, 0, 1, 0], "num_closed_0_comments": [0, 0, 0, 0, 0, 0], "median_close_time": [0, 60, 6.0, 0, 5, 0], "avg_close_time": [3, 60, 329.5, 0, 5, 0], "num_open": [3, 0, 4, 0, 2, 0], "num_unique_authors": [3, 0, 4, 0, 2, 0], "unique_authors": [], "new_authors": [], "num_new_users": [3, 0, 2, 0, 2, 0], "median_comments_before_close": [2, 3, 3.0, 0, 4, 0], "avg_comments_before_close": [2, 3, 3.2, 0, 4, 0], "median_comments_recent": [2, 0, 4.0, 0, 3.5, 0], "avg_comments_recent": [2, 0, 4, 0, 3.5, 0], "num_toxic": [0, 0, 3, 0, 0, 0], "toxic": [[], [], [], [], [], []], "neg_senti": [[], [], [{"title": "bitarray@2.3.7 failing to build", "link": "https://github.com/ilanschnell/bitarray/issues/166#issuecomment-1047374885"}, {"title": "Provide prebuilt wheels on all support os/arch/python combos", "link": "https://github.com/ilanschnell/bitarray/issues/165#issuecomment-1046275343"}, {"title": "Faster Column count()", "link": "https://github.com/ilanschnell/bitarray/issues/162#issuecomment-1044791088"}], [], [], []], "max_toxic": [0.018, 0, 0.117, 0, 0.03, 0], "max_attack": [0.014, 0, 0.03, 0, 0.016, 0], "long_standing": [{"title": "Feature: Accept list for __setitem__", "link": "https://github.com/ilanschnell/bitarray/issues/156"}, {"title": "Type hint bug for frozenbitarray?", "link": "https://github.com/ilanschnell/bitarray/issues/175"}], "most_comments": [{"title": "Feature: Accept list for __setitem__", "link": "https://github.com/ilanschnell/bitarray/issues/156"}, {"title": "Type hint bug for frozenbitarray?", "link": "https://github.com/ilanschnell/bitarray/issues/175"}], "label_counts_keys": [], "label_counts_values": []},{"num_closed": [1, 1, 6, 1, 3, 1], "num_closed_0_comments": [1, 1, 4, 1, 2, 0], "median_close_time": [0, 0, 0.5, 0, 0, 2], "avg_close_time": [0, 0, 133.8, 0, 1, 2], "num_open": [1, 1, 5, 1, 4, 0], "num_unique_authors": [1, 1, 3, 1, 2, 0], "unique_authors": [], "new_authors": [], "num_new_users": [0, 0, 1, 0, 1, 0], "median_comments_before_close": [0, 0, 0.0, 0, 0, 1], "avg_comments_before_close": [0, 0, 0.5, 0, 0.3, 1], "median_comments_recent": [0, 0, 0, 0, 0.5, 0], "avg_comments_recent": [0, 0, 0.4, 0, 0.5, 0], "num_toxic": [0, 0, 0, 0, 0, 0], "toxic": [[], [], [], [], [], []], "neg_senti": [[], [], [], [], [], []], "max_toxic": [0, 0, 0.018, 0, 0.067, 0], "max_attack": [0, 0, 0.017, 0, 0.04, 0], "total_merged": [1, 1, 6, 1, 3, 1], "long_standing": [{"title": "Polynomial evaluation related functions added", "link": "https://github.com/ilanschnell/bitarray/pull/89"}], "most_comments": [{"title": "Polynomial evaluation related functions added", "link": "https://github.com/ilanschnell/bitarray/pull/89"}], "label_counts_keys": [], "label_counts_values": []},{"total_active": 0, "total_new": 0}]
+[
+  {
+    "num_closed": [
+      3,
+      1,
+      6,
+      0,
+      1,
+      0
+    ],
+    "num_closed_0_comments": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_close_time": [
+      0,
+      60,
+      6,
+      0,
+      5,
+      0
+    ],
+    "avg_close_time": [
+      3,
+      60,
+      329.5,
+      0,
+      5,
+      0
+    ],
+    "num_open": [
+      3,
+      0,
+      4,
+      0,
+      2,
+      0
+    ],
+    "num_unique_authors": [
+      3,
+      0,
+      4,
+      0,
+      2,
+      0
+    ],
+    "unique_authors": [],
+    "new_authors": [],
+    "num_new_users": [
+      3,
+      0,
+      2,
+      0,
+      2,
+      0
+    ],
+    "median_comments_before_close": [
+      2,
+      3,
+      3,
+      0,
+      4,
+      0
+    ],
+    "avg_comments_before_close": [
+      2,
+      3,
+      3.2,
+      0,
+      4,
+      0
+    ],
+    "median_comments_recent": [
+      2,
+      0,
+      4,
+      0,
+      3.5,
+      0
+    ],
+    "avg_comments_recent": [
+      2,
+      0,
+      4,
+      0,
+      3.5,
+      0
+    ],
+    "num_toxic": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [],
+      [
+        {
+          "title": "bitarray@2.3.7 failing to build",
+          "link": "https://github.com/ilanschnell/bitarray/issues/166#issuecomment-1047374885"
+        },
+        {
+          "title": "Provide prebuilt wheels on all support os/arch/python combos",
+          "link": "https://github.com/ilanschnell/bitarray/issues/165#issuecomment-1046275343"
+        },
+        {
+          "title": "Faster Column count()",
+          "link": "https://github.com/ilanschnell/bitarray/issues/162#issuecomment-1044791088"
+        }
+      ],
+      [],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0.018,
+      0,
+      0.117,
+      0,
+      0.03,
+      0
+    ],
+    "max_attack": [
+      0.014,
+      0,
+      0.03,
+      0,
+      0.016,
+      0
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [
+      {
+        "title": "Feature: Accept list for __setitem__",
+        "url": "https://github.com/ilanschnell/bitarray/issues/156"
+      },
+      {
+        "title": "Type hint bug for frozenbitarray?",
+        "url": "https://github.com/ilanschnell/bitarray/issues/175"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Feature: Accept list for __setitem__",
+        "url": "https://github.com/ilanschnell/bitarray/issues/156"
+      },
+      {
+        "title": "Type hint bug for frozenbitarray?",
+        "url": "https://github.com/ilanschnell/bitarray/issues/175"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      1,
+      1,
+      6,
+      1,
+      3,
+      1
+    ],
+    "num_closed_0_comments": [
+      1,
+      1,
+      4,
+      1,
+      2,
+      0
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0.5,
+      0,
+      0,
+      2
+    ],
+    "avg_close_time": [
+      0,
+      0,
+      133.8,
+      0,
+      1,
+      2
+    ],
+    "num_open": [
+      1,
+      1,
+      5,
+      1,
+      4,
+      0
+    ],
+    "num_unique_authors": [
+      1,
+      1,
+      3,
+      1,
+      2,
+      0
+    ],
+    "unique_authors": [],
+    "new_authors": [],
+    "num_new_users": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "median_comments_before_close": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "avg_comments_before_close": [
+      0,
+      0,
+      0.5,
+      0,
+      0.3,
+      1
+    ],
+    "median_comments_recent": [
+      0,
+      0,
+      0,
+      0,
+      0.5,
+      0
+    ],
+    "avg_comments_recent": [
+      0,
+      0,
+      0.4,
+      0,
+      0.5,
+      0
+    ],
+    "num_toxic": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0,
+      0,
+      0.018,
+      0,
+      0.067,
+      0
+    ],
+    "max_attack": [
+      0,
+      0,
+      0.017,
+      0,
+      0.04,
+      0
+    ],
+    "total_merged": [
+      1,
+      1,
+      6,
+      1,
+      3,
+      1
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [
+      {
+        "title": "Polynomial evaluation related functions added",
+        "url": "https://github.com/ilanschnell/bitarray/pull/89"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Polynomial evaluation related functions added",
+        "url": "https://github.com/ilanschnell/bitarray/pull/89"
+      }
+    ]
+  },
+  {
+    "total_active": 1,
+    "total_new": 0
+  }
+]
