@@ -112,15 +112,15 @@
       [
         {
           "title": "bitarray@2.3.7 failing to build",
-          "link": "https://github.com/ilanschnell/bitarray/issues/166#issuecomment-1047374885"
+          "url": "https://github.com/ilanschnell/bitarray/issues/166#issuecomment-1047374885"
         },
         {
           "title": "Provide prebuilt wheels on all support os/arch/python combos",
-          "link": "https://github.com/ilanschnell/bitarray/issues/165#issuecomment-1046275343"
+          "url": "https://github.com/ilanschnell/bitarray/issues/165#issuecomment-1046275343"
         },
         {
           "title": "Faster Column count()",
-          "link": "https://github.com/ilanschnell/bitarray/issues/162#issuecomment-1044791088"
+          "url": "https://github.com/ilanschnell/bitarray/issues/162#issuecomment-1044791088"
         }
       ],
       [],
