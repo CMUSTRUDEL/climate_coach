@@ -681,19 +681,10 @@
       119
     ],
     "toxic": [
-      [
         {
           "title": "Sliding panes - Andy Matuschak",
           "url": "https://github.com/microsoft/PowerToys/issues/18485#issuecomment-1138201443"
         }
-      ],
-      [],
-      [
-        {
-          "title": "Powertoys failing to run shell commands",
-          "url": "https://github.com/microsoft/PowerToys/issues/17714#issuecomment-1098059481"
-        }
-      ]
     ],
     "neg_senti": [
       [
@@ -1113,12 +1104,6 @@
       22
     ],
     "toxic": [
-      [],
-      [],
-      [],
-      [],
-      [],
-      []
     ],
     "neg_senti": [
       {
