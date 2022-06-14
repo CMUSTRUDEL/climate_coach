@@ -1,4 +1,4 @@
-{"issues": defaultdict(<class "list">, {
+[{
 "num_closed": [251, 371, 264, 332, 232, 244], 
 "num_closed_0_comments": [0, 3, 4, 6, 8, 3], 
 "median_close_time": [0.0, 0.0, 0.0, 0, 0, 1], 
