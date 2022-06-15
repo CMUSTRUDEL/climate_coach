@@ -1,0 +1,690 @@
+[
+  {
+    "num_closed": [
+      5,
+      8,
+      9,
+      4,
+      10,
+      6
+    ],
+    "num_closed_0_comments": [
+      0,
+      1,
+      2,
+      0,
+      0,
+      1
+    ],
+    "median_close_time": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0.5
+    ],
+    "avg_close_time": [
+      0.4,
+      0.5,
+      3.6,
+      0.2,
+      0.5,
+      1.8
+    ],
+    "num_open": [
+      15,
+      30,
+      16,
+      19,
+      22,
+      16
+    ],
+    "num_unique_authors": [
+      12,
+      17,
+      9,
+      13,
+      16,
+      12
+    ],
+    "unique_authors": [
+      "jcfr",
+      "davide445",
+      "jamesobutler",
+      "MathieuLeclercq",
+      "dwijmistry11",
+      "reena4jan",
+      "MohHu",
+      "ebrahimebrahim",
+      "Connor-Bowley",
+      "jmcox9",
+      "RafaelPalomar",
+      "lassoan"
+    ],
+    "new_authors": [],
+    "num_new_authors": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    "median_comments_before_close": [
+      2,
+      1,
+      2,
+      5,
+      1,
+      2.5
+    ],
+    "avg_comments_before_close": [
+      1.6,
+      1.5,
+      1.9,
+      7.5,
+      2.7,
+      3.8
+    ],
+    "median_comments_recent": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "avg_comments_recent": [
+      2.9,
+      2.9,
+      1.7,
+      2.7,
+      3.2,
+      2.2
+    ],
+    "num_toxic": [
+      4,
+      6,
+      1,
+      5,
+      9,
+      1
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Memory leak when creating default storage node",
+          "url": "https://github.com/Slicer/Slicer/issues/6099#issuecomment-1029530410"
+        },
+        {
+          "title": "Unable to volume render on AMD gpu in Windows if resolution greather than 2048 or size greather than VRAM",
+          "url": "https://github.com/Slicer/Slicer/issues/6095#issuecomment-1002217076"
+        },
+        {
+          "title": "Unable to volume render on AMD gpu in Windows if resolution greather than 2048 or size greather than VRAM",
+          "url": "https://github.com/Slicer/Slicer/issues/6095#issuecomment-1002261224"
+        },
+        {
+          "title": "To run Slicer ",
+          "url": "https://github.com/Slicer/Slicer/issues/6093#issuecomment-1042488002"
+        }
+      ],
+      [
+        {
+          "title": "vtkSegment default terminology not reading Settings",
+          "url": "https://github.com/Slicer/Slicer/issues/6168#issuecomment-1032917886"
+        },
+        {
+          "title": "SimpleITK  build error",
+          "url": "https://github.com/Slicer/Slicer/issues/6163#issuecomment-1041467125"
+        },
+        {
+          "title": "SimpleITK  build error",
+          "url": "https://github.com/Slicer/Slicer/issues/6163#issuecomment-1041844920"
+        },
+        {
+          "title": "Organize Slicer logos material on GitHub and create webpage for describing them",
+          "url": "https://github.com/Slicer/Slicer/issues/6161#issuecomment-1031480416"
+        },
+        {
+          "title": "Enabling cropping in volume rendering also makes the cropping ROI visible",
+          "url": "https://github.com/Slicer/Slicer/issues/6126#issuecomment-1020093773"
+        },
+        {
+          "title": "Slicer Failing to Load Ultrasounds on Different Machines ",
+          "url": "https://github.com/Slicer/Slicer/issues/6116#issuecomment-1015771857"
+        }
+      ],
+      [
+        {
+          "title": "Get OpenVR working with latest Slicer",
+          "url": "https://github.com/Slicer/Slicer/issues/6214#issuecomment-1049944565"
+        }
+      ],
+      [
+        {
+          "title": "Installing extension SegmentEditorExtraEffects hangs Slicer",
+          "url": "https://github.com/Slicer/Slicer/issues/6310#issuecomment-1096730131"
+        },
+        {
+          "title": "\"Close Scene\" always claims the file has been modified and hasn't been saved",
+          "url": "https://github.com/Slicer/Slicer/issues/6296#issuecomment-1086638915"
+        },
+        {
+          "title": "Install extensions is empty",
+          "url": "https://github.com/Slicer/Slicer/issues/6293#issuecomment-1085987492"
+        },
+        {
+          "title": "Install extensions is empty",
+          "url": "https://github.com/Slicer/Slicer/issues/6293#issuecomment-1086199085"
+        },
+        {
+          "title": "Mechanism to customize the location of Slicer-XXXXX.ini",
+          "url": "https://github.com/Slicer/Slicer/issues/6288#issuecomment-1084543518"
+        }
+      ],
+      [
+        {
+          "title": "Unable to load DICOM module",
+          "url": "https://github.com/Slicer/Slicer/issues/6373#issuecomment-1126240179"
+        },
+        {
+          "title": "Clone a node with copying display properties",
+          "url": "https://github.com/Slicer/Slicer/issues/6372#issuecomment-1125793463"
+        },
+        {
+          "title": "using `std::unique_ptr` without `#include <memory>`",
+          "url": "https://github.com/Slicer/Slicer/issues/6367#issuecomment-1128828090"
+        },
+        {
+          "title": "Ignore QT_PLUGIN_PATH environment variable",
+          "url": "https://github.com/Slicer/Slicer/issues/6353#issuecomment-1117811285"
+        },
+        {
+          "title": "Release Slicer v5.0",
+          "url": "https://github.com/Slicer/Slicer/issues/6337#issuecomment-1114356217"
+        },
+        {
+          "title": "Release Slicer v5.0",
+          "url": "https://github.com/Slicer/Slicer/issues/6337#issuecomment-1114379730"
+        },
+        {
+          "title": "Release Slicer v5.0",
+          "url": "https://github.com/Slicer/Slicer/issues/6337#issuecomment-1114755029"
+        },
+        {
+          "title": "Release Slicer v5.0",
+          "url": "https://github.com/Slicer/Slicer/issues/6337#issuecomment-1115085731"
+        },
+        {
+          "title": "Release Slicer v5.0",
+          "url": "https://github.com/Slicer/Slicer/issues/6337#issuecomment-1125229220"
+        }
+      ],
+      [
+        {
+          "title": "Adding new markup control points is very slow if control points table is visible",
+          "url": "https://github.com/Slicer/Slicer/issues/6379#issuecomment-1126848276"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.101,
+      0.109,
+      0.045,
+      0.083,
+      0.123,
+      0.099
+    ],
+    "max_attack": [
+      0.046,
+      0.029,
+      0.021,
+      0.022,
+      0.024,
+      0.059
+    ],
+    "label_counts_keys": [
+      "type:enhancement",
+      "type:bug",
+      "type:documentation"
+    ],
+    "label_counts_values": [
+      1,
+      14,
+      1
+    ],
+    "long_standing": [
+      {
+        "title": "Update Slicer to use Qt6",
+        "url": "https://github.com/Slicer/Slicer/issues/6388"
+      },
+      {
+        "title": "SimpleITK build fail on MacOS 12.4 Monterey, second make works",
+        "url": "https://github.com/Slicer/Slicer/issues/6389"
+      },
+      {
+        "title": "Crash when creating empty volume from module",
+        "url": "https://github.com/Slicer/Slicer/issues/6381"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "bug with adding .mrml file",
+        "url": "https://github.com/Slicer/Slicer/issues/6421"
+      },
+      {
+        "title": "openDialog does not load node into scene",
+        "url": "https://github.com/Slicer/Slicer/issues/6429"
+      },
+      {
+        "title": "Crash when creating empty volume from module",
+        "url": "https://github.com/Slicer/Slicer/issues/6381"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      9,
+      35,
+      52,
+      22,
+      38,
+      24
+    ],
+    "num_closed_0_comments": [
+      6,
+      12,
+      23,
+      7,
+      18,
+      11
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0.8,
+      2.8,
+      1.9,
+      1.6,
+      0.9,
+      0.6
+    ],
+    "num_open": [
+      14,
+      46,
+      59,
+      29,
+      41,
+      35
+    ],
+    "num_unique_authors": [
+      10,
+      15,
+      18,
+      11,
+      10,
+      10
+    ],
+    "unique_authors": [
+      "kerim371",
+      "jamesobutler",
+      "chir-set",
+      "koegl",
+      "Sunderlandkyl",
+      "slicerbot",
+      "ebrahimebrahim",
+      "fedorov",
+      "fbordignon",
+      "lassoan"
+    ],
+    "new_authors": [],
+    "num_new_authors": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "median_comments_before_close": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "avg_comments_before_close": [
+      1.6,
+      2.4,
+      1.8,
+      2.7,
+      1.7,
+      1
+    ],
+    "median_comments_recent": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "avg_comments_recent": [
+      2.5,
+      3.3,
+      2,
+      2.7,
+      1.8,
+      2.6
+    ],
+    "num_toxic": [
+      0,
+      15,
+      14,
+      6,
+      3,
+      8
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [
+        {
+          "title": "ENH: Add separate toolbutton for slice intersections",
+          "url": "https://github.com/Slicer/Slicer/pull/6186#issuecomment-1057067861"
+        },
+        {
+          "title": "ENH: Add separate toolbutton for slice intersections",
+          "url": "https://github.com/Slicer/Slicer/pull/6186#issuecomment-1057149142"
+        },
+        {
+          "title": "Organize menu bar with a few new options and refresh Welcome module to match",
+          "url": "https://github.com/Slicer/Slicer/pull/6185#issuecomment-1041303098"
+        },
+        {
+          "title": "Organize menu bar with a few new options and refresh Welcome module to match",
+          "url": "https://github.com/Slicer/Slicer/pull/6185#issuecomment-1041497994"
+        },
+        {
+          "title": "Organize menu bar with a few new options and refresh Welcome module to match",
+          "url": "https://github.com/Slicer/Slicer/pull/6185#issuecomment-1041752512"
+        },
+        {
+          "title": "ENH: Skip message boxes when testing",
+          "url": "https://github.com/Slicer/Slicer/pull/6162#issuecomment-1031686208"
+        },
+        {
+          "title": "BUG: Adds varying colors to ROIs added as a single node",
+          "url": "https://github.com/Slicer/Slicer/pull/6142#issuecomment-1030882749"
+        },
+        {
+          "title": "BUG: Adds varying colors to ROIs added as a single node",
+          "url": "https://github.com/Slicer/Slicer/pull/6142#issuecomment-1031661402"
+        },
+        {
+          "title": "COMP: Update python packages to latest",
+          "url": "https://github.com/Slicer/Slicer/pull/6131#issuecomment-1021772414"
+        },
+        {
+          "title": "ENH: Add setMRMLScene to qMRMLCollapsibleButton",
+          "url": "https://github.com/Slicer/Slicer/pull/6129#issuecomment-1021715235"
+        },
+        {
+          "title": "I18n add targets for generating qm files and translation templates",
+          "url": "https://github.com/Slicer/Slicer/pull/6125#issuecomment-1019346933"
+        },
+        {
+          "title": "ENH: add python libs and headers for source package install",
+          "url": "https://github.com/Slicer/Slicer/pull/6117#issuecomment-1032634954"
+        },
+        {
+          "title": "ENH: add python libs and headers for source package install",
+          "url": "https://github.com/Slicer/Slicer/pull/6117#issuecomment-1032802145"
+        },
+        {
+          "title": "ENH: add python libs and headers for source package install",
+          "url": "https://github.com/Slicer/Slicer/pull/6117#issuecomment-1034523227"
+        },
+        {
+          "title": "ENH: add python libs and headers for source package install",
+          "url": "https://github.com/Slicer/Slicer/pull/6117#issuecomment-1042479854"
+        }
+      ],
+      [
+        {
+          "title": "BUG: Fix attribute bad access when using a sequence node",
+          "url": "https://github.com/Slicer/Slicer/pull/6254#issuecomment-1062269131"
+        },
+        {
+          "title": "BUG: Fix attribute bad access when using a sequence node",
+          "url": "https://github.com/Slicer/Slicer/pull/6254#issuecomment-1062709795"
+        },
+        {
+          "title": "ENH: improve dataprobe magnifier borders",
+          "url": "https://github.com/Slicer/Slicer/pull/6252#issuecomment-1064001784"
+        },
+        {
+          "title": "BUG: Workaround for Slicer hang on scipy import on Windows 11",
+          "url": "https://github.com/Slicer/Slicer/pull/6234#issuecomment-1059810839"
+        },
+        {
+          "title": "Simplify LibArchive external project and improve associated documentation",
+          "url": "https://github.com/Slicer/Slicer/pull/6221#issuecomment-1049551233"
+        },
+        {
+          "title": "DOC: Fix internal link in retired modules list",
+          "url": "https://github.com/Slicer/Slicer/pull/6212#issuecomment-1046390472"
+        },
+        {
+          "title": "Add Fedora information",
+          "url": "https://github.com/Slicer/Slicer/pull/6201#issuecomment-1063521229"
+        },
+        {
+          "title": "Add Fedora information",
+          "url": "https://github.com/Slicer/Slicer/pull/6201#issuecomment-1063525487"
+        },
+        {
+          "title": "Add Fedora information",
+          "url": "https://github.com/Slicer/Slicer/pull/6201#issuecomment-1063527814"
+        },
+        {
+          "title": "ITK cleanups: Remove use of itkGetObjectMacro, itkStaticConstMacro and vnl/vnl_math.h",
+          "url": "https://github.com/Slicer/Slicer/pull/6200#issuecomment-1045134511"
+        },
+        {
+          "title": "ITK cleanups: Remove use of itkGetObjectMacro, itkStaticConstMacro and vnl/vnl_math.h",
+          "url": "https://github.com/Slicer/Slicer/pull/6200#issuecomment-1045187751"
+        },
+        {
+          "title": "ITK cleanups: Remove use of itkGetObjectMacro, itkStaticConstMacro and vnl/vnl_math.h",
+          "url": "https://github.com/Slicer/Slicer/pull/6200#issuecomment-1045211653"
+        },
+        {
+          "title": "ITK cleanups: Remove use of itkGetObjectMacro, itkStaticConstMacro and vnl/vnl_math.h",
+          "url": "https://github.com/Slicer/Slicer/pull/6200#issuecomment-1045277923"
+        },
+        {
+          "title": "ITK cleanups: Remove use of itkGetObjectMacro, itkStaticConstMacro and vnl/vnl_math.h",
+          "url": "https://github.com/Slicer/Slicer/pull/6200#issuecomment-1046158649"
+        }
+      ],
+      [
+        {
+          "title": "DOC: Describe solution for empty blank extensions manager on ArchLinux",
+          "url": "https://github.com/Slicer/Slicer/pull/6294#issuecomment-1086267319"
+        },
+        {
+          "title": "DOC: Describe solution for empty blank extensions manager on ArchLinux",
+          "url": "https://github.com/Slicer/Slicer/pull/6294#issuecomment-1086491551"
+        },
+        {
+          "title": "BUG: Fix vtk referenced before assignment error in GE ABUS DICOM plugin",
+          "url": "https://github.com/Slicer/Slicer/pull/6279#issuecomment-1074790392"
+        },
+        {
+          "title": "BUG: Fix vtk referenced before assignment error in GE ABUS DICOM plugin",
+          "url": "https://github.com/Slicer/Slicer/pull/6279#issuecomment-1074806339"
+        },
+        {
+          "title": "Update website links to https sites",
+          "url": "https://github.com/Slicer/Slicer/pull/6276#issuecomment-1074701982"
+        },
+        {
+          "title": "DOC: Add plot view widget example to script repo",
+          "url": "https://github.com/Slicer/Slicer/pull/6266#issuecomment-1067942715"
+        }
+      ],
+      [
+        {
+          "title": "COMP: Do not require building extension from git repository",
+          "url": "https://github.com/Slicer/Slicer/pull/6365#issuecomment-1126315207"
+        },
+        {
+          "title": "BUG: vtk_to_numpy funciton missing in Endoscopy",
+          "url": "https://github.com/Slicer/Slicer/pull/6359#issuecomment-1120512327"
+        },
+        {
+          "title": "BUG: Fix Slicer crash upon hiding delete all control points option",
+          "url": "https://github.com/Slicer/Slicer/pull/6335#issuecomment-1111231670"
+        }
+      ],
+      [
+        {
+          "title": "Refactored extensions manager",
+          "url": "https://github.com/Slicer/Slicer/pull/6417#issuecomment-1150396318"
+        },
+        {
+          "title": "Refactored extensions manager",
+          "url": "https://github.com/Slicer/Slicer/pull/6417#issuecomment-1151376583"
+        },
+        {
+          "title": "Refactored extensions manager",
+          "url": "https://github.com/Slicer/Slicer/pull/6417#issuecomment-1151417795"
+        },
+        {
+          "title": "Refactored extensions manager",
+          "url": "https://github.com/Slicer/Slicer/pull/6417#issuecomment-1154048861"
+        },
+        {
+          "title": "BUG: Fix subject hierarchy table showing nodes removed during batch processing",
+          "url": "https://github.com/Slicer/Slicer/pull/6394#issuecomment-1141909315"
+        },
+        {
+          "title": "BUG: Fix subject hierarchy table showing nodes removed during batch processing",
+          "url": "https://github.com/Slicer/Slicer/pull/6394#issuecomment-1152392464"
+        },
+        {
+          "title": "BUG: Fix subject hierarchy table showing nodes removed during batch processing",
+          "url": "https://github.com/Slicer/Slicer/pull/6394#issuecomment-1152520631"
+        },
+        {
+          "title": "Fix macOS build error updating libarchive from 3.5.2 to 3.6.1",
+          "url": "https://github.com/Slicer/Slicer/pull/6390#issuecomment-1138503699"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.089,
+      0.156,
+      0.178,
+      0.289,
+      0.159,
+      0.091
+    ],
+    "max_attack": [
+      0.028,
+      0.032,
+      0.061,
+      0.148,
+      0.091,
+      0.072
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [
+      {
+        "title": "BUG: Fix subject hierarchy table showing nodes removed during batch processing",
+        "url": "https://github.com/Slicer/Slicer/pull/6394"
+      },
+      {
+        "title": "ENH: Optimize processing Segment Editor updates during Batch Processing",
+        "url": "https://github.com/Slicer/Slicer/pull/6395"
+      },
+      {
+        "title": "COMP: Update python packages to latest",
+        "url": "https://github.com/Slicer/Slicer/pull/6397"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "BUG: Fix subject hierarchy table showing nodes removed during batch processing",
+        "url": "https://github.com/Slicer/Slicer/pull/6394"
+      },
+      {
+        "title": "BUG: Fix WebServer failing to load when Slicer built without DICOM support",
+        "url": "https://github.com/Slicer/Slicer/pull/6407"
+      },
+      {
+        "title": "Refactored extensions manager",
+        "url": "https://github.com/Slicer/Slicer/pull/6417"
+      }
+    ]
+  },
+  {
+    "unique_authors": [
+      "pieper",
+      "gabrielmuller",
+      "jcfr",
+      "hubutui",
+      "lassoan",
+      "jamesobutler",
+      "allemangD"
+    ],
+    "num_unique_authors": [
+      7,
+      10,
+      8,
+      17,
+      15,
+      10
+    ],
+    "new_authors": [
+      "pieper",
+      "gabrielmuller",
+      "jcfr",
+      "hubutui",
+      "lassoan",
+      "jamesobutler",
+      "allemangD"
+    ],
+    "num_new_authors": 10
+  },
+  {
+    "total_active": 16,
+    "total_new": 11
+  }
+]
