@@ -1,0 +1,775 @@
+[
+  {
+    "num_closed": [
+      17,
+      20,
+      11,
+      11,
+      19,
+      12
+    ],
+    "num_closed_0_comments": [
+      10,
+      11,
+      5,
+      4,
+      9,
+      5
+    ],
+    "median_close_time": [
+      7,
+      0,
+      1,
+      4,
+      3,
+      4
+    ],
+    "avg_close_time": [
+      10.5,
+      4.2,
+      2.5,
+      7.8,
+      4.5,
+      6.8
+    ],
+    "num_open": [
+      52,
+      70,
+      47,
+      53,
+      50,
+      46
+    ],
+    "num_unique_authors": [
+      9,
+      11,
+      11,
+      14,
+      12,
+      9
+    ],
+    "unique_authors": [
+      "dosumis",
+      "matentzn",
+      "tibingaman",
+      "maglott",
+      "seoanezonjic",
+      "ValWood",
+      "kanems",
+      "sabrinatoro",
+      "nicolevasilevsky"
+    ],
+    "new_authors": [
+      "dosumis",
+      "matentzn",
+      "tibingaman",
+      "maglott",
+      "seoanezonjic",
+      "ValWood",
+      "kanems",
+      "sabrinatoro",
+      "nicolevasilevsky"
+    ],
+    "num_new_authors": [
+      9,
+      11,
+      11,
+      14,
+      12,
+      9
+    ],
+    "median_comments_before_close": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "avg_comments_before_close": [
+      1.1,
+      1.4,
+      2,
+      2.3,
+      1.2,
+      1.6
+    ],
+    "median_comments_recent": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "avg_comments_recent": [
+      2.2,
+      1.4,
+      2.5,
+      1.9,
+      1,
+      1
+    ],
+    "num_toxic": [
+      11,
+      9,
+      14,
+      9,
+      3,
+      3
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "MONDO:0020347 and MONDO:0007691 [Merge? or fix x-ref?]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4252#issuecomment-1017010721"
+        },
+        {
+          "title": "unexpected changes are introduced when editing the ontology",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4249#issuecomment-1014908907"
+        },
+        {
+          "title": "MONDO:0100244  paroxysmal nocturnal hemoglobinuria (vs. acquired form: MONDO:0100245)",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4232#issuecomment-1006877323"
+        },
+        {
+          "title": "MONDO:0018115 Epidermal nevus syndrome(s) [Revise subclass]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4222#issuecomment-1076753787"
+        },
+        {
+          "title": "MONDO:0007064, adenosine deaminase deficiency - review?",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4200#issuecomment-1033066063"
+        },
+        {
+          "title": "Add instructions on \"debugging docs\" to docs",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4198#issuecomment-998984535"
+        },
+        {
+          "title": "Add instructions on \"debugging docs\" to docs",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4198#issuecomment-999085905"
+        },
+        {
+          "title": "SOP : dbxrefs of obsolete classes when merging",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4196#issuecomment-997446507"
+        },
+        {
+          "title": "Absence of xref in MONDO:0019313, lymphatic malformation",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4183#issuecomment-1010438883"
+        },
+        {
+          "title": "Absence of xref in MONDO:0019313, lymphatic malformation",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4183#issuecomment-1020045270"
+        },
+        {
+          "title": "review mappings in Mondo",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4167#issuecomment-995271534"
+        }
+      ],
+      [
+        {
+          "title": "[Obsolete] Antithrombin II deficiency",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4476#issuecomment-1043932921"
+        },
+        {
+          "title": "[Obsolete] Antithrombin III deficiency MONDO:0013144",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4475#issuecomment-1042494399"
+        },
+        {
+          "title": "[Merge] 'autosomal recessive Mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR1 deficiency'",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4472#issuecomment-1035521805"
+        },
+        {
+          "title": "MONDO:0056821 & MONDO:0015264 [Merge]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4417#issuecomment-1104328226"
+        },
+        {
+          "title": "[Obsolete] \"congenital vitreoretinal dysplasia (MONDO:0020247)\" and  \"vitreoretinal degeneration (MONDO:0020248)\"",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4407#issuecomment-1110069980"
+        },
+        {
+          "title": "[Revise subclass] neurofibromatosis type 6",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4374#issuecomment-1072481356"
+        },
+        {
+          "title": "reclassify susceptibility classes from OMIM Omit list",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4363#issuecomment-1027231251"
+        },
+        {
+          "title": "prune away some of the annotations before the release that are not useful for users",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4346#issuecomment-1020573128"
+        },
+        {
+          "title": "prune away some of the annotations before the release that are not useful for users",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4346#issuecomment-1023546191"
+        }
+      ],
+      [
+        {
+          "title": "tenosynovial giant cell tumor, diffuse type and pigmented villonodular synovitis [Merge]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4610#issuecomment-1155588967"
+        },
+        {
+          "title": "tenosynovial giant cell tumor, diffuse type and pigmented villonodular synovitis [Merge]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4610#issuecomment-1156632011"
+        },
+        {
+          "title": "Questions about MonDO source ontologies",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4589#issuecomment-1066504936"
+        },
+        {
+          "title": "[Obsolete] 'pregnancy disorder with abortive outcome'",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4584#issuecomment-1109088637"
+        },
+        {
+          "title": "Create list of ICD terms excluded from our mapping",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4570#issuecomment-1058519698"
+        },
+        {
+          "title": "Orphanet X-refs on Mondo ID but none are \"Mondo:equivalentTo\"",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4568#issuecomment-1058421908"
+        },
+        {
+          "title": "Authorship on Mondo community publication",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4559#issuecomment-1055739479"
+        },
+        {
+          "title": "Authorship on Mondo community publication",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4559#issuecomment-1055768824"
+        },
+        {
+          "title": "make sure there is documentation on the difference b/w proxy merge and reverse proxy merge",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4545#issuecomment-1059749870"
+        },
+        {
+          "title": "Fix: Illegal ICD10 Codes",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4524#issuecomment-1048043969"
+        },
+        {
+          "title": "Fix: Illegal ICD10 Codes",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4524#issuecomment-1050109380"
+        },
+        {
+          "title": "Fix: Illegal ICD10 Codes",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4524#issuecomment-1050110642"
+        },
+        {
+          "title": "scope of processing from OMIM",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4521#issuecomment-1062893227"
+        },
+        {
+          "title": "scope of processing from OMIM",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4521#issuecomment-1079202120"
+        }
+      ],
+      [
+        {
+          "title": "MedGen conflicts in OMIM:Mondo mappings",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4769#issuecomment-1100228610"
+        },
+        {
+          "title": "create candidate mappings for ORDO based on OMIM equiv xrefs",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4741#issuecomment-1131961280"
+        },
+        {
+          "title": "[Merge] MONDO:0005982 tinea infection and ",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4700#issuecomment-1089469363"
+        },
+        {
+          "title": "Aspiration and anaerobic pneumonias[Revise subclass]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4660#issuecomment-1076718775"
+        },
+        {
+          "title": "Ensure that ICD10 mappings are ICD10CM, not ICD10WHO",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4651#issuecomment-1072414807"
+        },
+        {
+          "title": "MONDO:0005493 delayed encephalopathy after acute carbon monoxide poisoning [Revise subclass]",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4632#issuecomment-1071930711"
+        },
+        {
+          "title": "[Obsolete] blood protein disease",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4624#issuecomment-1142415188"
+        },
+        {
+          "title": "[Obsolete] blood protein disease",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4624#issuecomment-1142640471"
+        },
+        {
+          "title": "[Obsolete] blood protein disease",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4624#issuecomment-1142732370"
+        }
+      ],
+      [
+        {
+          "title": "MONDO:0020718 congenital short bowel syndrome 1",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4921#issuecomment-1148912812"
+        },
+        {
+          "title": "[Revise subclass] Susceptibility terms",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4882#issuecomment-1112616160"
+        },
+        {
+          "title": "[Merge]  Graves disease",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4818#issuecomment-1109072847"
+        }
+      ],
+      [
+        {
+          "title": "[Revise subclass] 'partial trisomy 21' ",
+          "url": "https://github.com/monarch-initiative/mondo/issues/5054#issuecomment-1155772628"
+        },
+        {
+          "title": "[Obsolete] carpal region disorder",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4974#issuecomment-1138936086"
+        },
+        {
+          "title": "Protege shows false parentage",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4947#issuecomment-1132308289"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.171,
+      0.181,
+      0.211,
+      0.29,
+      0.187,
+      0.383
+    ],
+    "max_attack": [
+      0.052,
+      0.062,
+      0.104,
+      0.117,
+      0.145,
+      0.138
+    ],
+    "label_counts_keys": [
+      "qc-call",
+      "Curation call",
+      "New term request",
+      "definition",
+      "Revise subclass",
+      "Chr anomaly/monochrom",
+      "xref",
+      "split",
+      "on list",
+      "merge",
+      "high priority",
+      "superclass",
+      "ordo-project",
+      "susceptibility",
+      "relabel term",
+      "effort-XL",
+      "Branch Review",
+      "OMIM",
+      "effort-XS",
+      "ClinGen",
+      "obsolete",
+      "bug",
+      "question",
+      "user request"
+    ],
+    "label_counts_values": [
+      1,
+      2,
+      6,
+      1,
+      7,
+      1,
+      2,
+      2,
+      7,
+      4,
+      4,
+      2,
+      1,
+      1,
+      4,
+      3,
+      1,
+      3,
+      2,
+      5,
+      6,
+      3,
+      1,
+      9
+    ],
+    "long_standing": [
+      {
+        "title": "Self-Limited Familial Neonatal Seizures",
+        "url": "https://github.com/monarch-initiative/mondo/issues/4940"
+      },
+      {
+        "title": "Split subtypes in OMIM into new Mondo terms",
+        "url": "https://github.com/monarch-initiative/mondo/issues/4939"
+      },
+      {
+        "title": "[NTR] ClinGen Retina GCEP new terms",
+        "url": "https://github.com/monarch-initiative/mondo/issues/4937"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "[Revise subclass] aplastic anemia should not be a subclass of telomere syndrome",
+        "url": "https://github.com/monarch-initiative/mondo/issues/5003"
+      },
+      {
+        "title": "[Obsolete] carpal region disorder",
+        "url": "https://github.com/monarch-initiative/mondo/issues/4974"
+      },
+      {
+        "title": "[Revise subclass] 'partial trisomy 21' ",
+        "url": "https://github.com/monarch-initiative/mondo/issues/5054"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      76,
+      112,
+      59,
+      106,
+      95,
+      68
+    ],
+    "num_closed_0_comments": [
+      65,
+      93,
+      48,
+      84,
+      84,
+      60
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      3.3,
+      0.6,
+      1.1,
+      0.7,
+      0.3,
+      0.6
+    ],
+    "num_open": [
+      82,
+      116,
+      77,
+      113,
+      101,
+      73
+    ],
+    "num_unique_authors": [
+      4,
+      6,
+      6,
+      6,
+      8,
+      7
+    ],
+    "unique_authors": [
+      "matentzn",
+      "sabrinatoro",
+      "nicolevasilevsky",
+      "github-actions[bot]"
+    ],
+    "new_authors": [
+      "matentzn",
+      "sabrinatoro",
+      "nicolevasilevsky",
+      "github-actions[bot]"
+    ],
+    "num_new_authors": [
+      4,
+      6,
+      6,
+      6,
+      8,
+      7
+    ],
+    "median_comments_before_close": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_before_close": [
+      0.2,
+      0.7,
+      0.5,
+      0.4,
+      0.2,
+      0.1
+    ],
+    "median_comments_recent": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_recent": [
+      0.3,
+      0.7,
+      0.8,
+      0.4,
+      0.4,
+      0.2
+    ],
+    "num_toxic": [
+      3,
+      11,
+      6,
+      3,
+      7,
+      2
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "excluded subclass for MONDO:0001752",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4248#issuecomment-1005817912"
+        },
+        {
+          "title": "add superclass axiom to 'plasma cell myeloma'",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4213#issuecomment-1012399521"
+        },
+        {
+          "title": "Increasing the severity of the proxy merge test",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4175#issuecomment-996655216"
+        }
+      ],
+      [
+        {
+          "title": "obsolete ORDO grouping classes",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4471#issuecomment-1035516777"
+        },
+        {
+          "title": "Move Uberon to base",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4377#issuecomment-1023583183"
+        },
+        {
+          "title": "PR for: prune away some of the annotations before the release that are not useful for users #4346",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4357#issuecomment-1026003043"
+        },
+        {
+          "title": "removed clingen preferred tags",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4345#issuecomment-1020032539"
+        },
+        {
+          "title": "reviewed typo in label",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4343#issuecomment-1018900800"
+        },
+        {
+          "title": "Rename disease->disorder in labels for terms that conform to patterns/location.yaml",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4341#issuecomment-1018750112"
+        },
+        {
+          "title": "Rename disease->disorder in labels for terms that conform to patterns/location.yaml",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4341#issuecomment-1018794928"
+        },
+        {
+          "title": "Rename disease->disorder in labels for terms that conform to patterns/location.yaml",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4341#issuecomment-1020023957"
+        },
+        {
+          "title": "reviewed trisomy 18 terms",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4319#issuecomment-1017947810"
+        },
+        {
+          "title": "Chromosome type DOS-DP",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4309#issuecomment-1016010462"
+        },
+        {
+          "title": "Chromosome type DOS-DP",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4309#issuecomment-1016562325"
+        }
+      ],
+      [
+        {
+          "title": "split MONDO:0014253",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4608#issuecomment-1067169699"
+        },
+        {
+          "title": "split MONDO:0014253",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4608#issuecomment-1068246818"
+        },
+        {
+          "title": "split MONDO:0014253",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4608#issuecomment-1079272543"
+        },
+        {
+          "title": "WIP: First round QC for cleaning source metadata",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4574#issuecomment-1131383365"
+        },
+        {
+          "title": "WIP: First round QC for cleaning source metadata",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4574#issuecomment-1131901341"
+        },
+        {
+          "title": "add ICD10 grouping term mappings to Mondo terms",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4551#issuecomment-1054504095"
+        }
+      ],
+      [
+        {
+          "title": "remove relatedTo and directSiblingOf",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4734#issuecomment-1091833520"
+        },
+        {
+          "title": "remove relatedTo and directSiblingOf",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4734#issuecomment-1109227085"
+        },
+        {
+          "title": "added 'tags' for Mondo Clinical view.",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4673#issuecomment-1078127258"
+        }
+      ],
+      [
+        {
+          "title": "Upgrade HGNC URIs",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4932#issuecomment-1132127799"
+        },
+        {
+          "title": "Upgrade HGNC URIs",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4932#issuecomment-1132476241"
+        },
+        {
+          "title": "split Teebi hypertelorism syndrome",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4841#issuecomment-1106780832"
+        },
+        {
+          "title": "split Teebi hypertelorism syndrome",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4841#issuecomment-1106823927"
+        },
+        {
+          "title": "add back obsoleted IDs that were removed",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4828#issuecomment-1105614741"
+        },
+        {
+          "title": "add new xrefs",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4821#issuecomment-1104645949"
+        },
+        {
+          "title": "acquired/inherited relation with gene",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4800#issuecomment-1106797977"
+        }
+      ],
+      [
+        {
+          "title": "Use CURIE syntax for HGNC references",
+          "url": "https://github.com/monarch-initiative/mondo/pull/5038#issuecomment-1154081741"
+        },
+        {
+          "title": "Use CURIE syntax for HGNC references",
+          "url": "https://github.com/monarch-initiative/mondo/pull/5038#issuecomment-1156078443"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.389,
+      0.355,
+      0.289,
+      0.159,
+      0.117,
+      0.102
+    ],
+    "max_attack": [
+      0.038,
+      0.077,
+      0.148,
+      0.232,
+      0.046,
+      0.029
+    ],
+    "label_counts_keys": [
+      "high priority"
+    ],
+    "label_counts_values": [
+      1
+    ],
+    "long_standing": [
+      {
+        "title": "merge pigmented villonodular synovitis",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5051"
+      },
+      {
+        "title": "Use CURIE syntax for HGNC references",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5038"
+      },
+      {
+        "title": "Create qc-duplicate-exact-synonym-no-abbrev.sparql",
+        "url": "https://github.com/monarch-initiative/mondo/pull/4958"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Create qc-duplicate-exact-synonym-no-abbrev.sparql",
+        "url": "https://github.com/monarch-initiative/mondo/pull/4958"
+      },
+      {
+        "title": "merge pigmented villonodular synovitis",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5051"
+      },
+      {
+        "title": "Use CURIE syntax for HGNC references",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5038"
+      }
+    ]
+  },
+  {
+    "unique_authors": [
+      "nicolevasilevsky",
+      "dhimmel",
+      "matentzn",
+      "github-actions[bot]",
+      "sabrinatoro"
+    ],
+    "num_unique_authors": [
+      5,
+      7,
+      5,
+      4,
+      6,
+      4
+    ],
+    "new_authors": [
+      "nicolevasilevsky",
+      "dhimmel",
+      "matentzn",
+      "github-actions[bot]",
+      "sabrinatoro"
+    ],
+    "num_new_authors": 4
+  },
+  {
+    "total_active": 13,
+    "total_new": 13
+  }
+]
