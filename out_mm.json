@@ -4,92 +4,94 @@
       16,
       23,
       12,
-      11,
-      19,
+      14,
+      16,
       12
     ],
     "num_closed_0_comments": [
       10,
       13,
       5,
-      4,
-      9,
+      7,
+      8,
       5
     ],
     "median_close_time": [
       6.5,
       0,
       1.5,
-      4,
-      3,
+      2.5,
+      2.5,
       4
     ],
     "avg_close_time": [
       9.9,
       4.3,
       2.7,
-      7.8,
-      4.5,
+      6.1,
+      3.7,
       6.8
     ],
     "num_open": [
       48,
-      70,
-      46,
+      71,
+      49,
       53,
-      50,
-      46
+      47,
+      50
     ],
     "num_unique_authors": [
       8,
-      11,
-      11,
-      14,
       12,
+      12,
+      12,
+      13,
       9
     ],
     "unique_authors": [
-      "matentzn",
       "kanems",
-      "tibingaman",
-      "nicolevasilevsky",
+      "sabrinatoro",
+      "ErinRiggs",
       "ValWood",
-      "seoanezonjic",
-      "maglott",
-      "sabrinatoro"
+      "tibingaman",
+      "jennygoldstein",
+      "matentzn",
+      "pnrobinson",
+      "nicolevasilevsky"
     ],
     "new_authors": [
-      "matentzn",
       "kanems",
-      "tibingaman",
-      "nicolevasilevsky",
+      "sabrinatoro",
+      "ErinRiggs",
       "ValWood",
-      "seoanezonjic",
-      "maglott",
-      "sabrinatoro"
+      "tibingaman",
+      "jennygoldstein",
+      "matentzn",
+      "pnrobinson",
+      "nicolevasilevsky"
     ],
     "num_new_authors": [
       8,
-      11,
-      11,
-      14,
       12,
+      12,
+      12,
+      13,
       9
     ],
     "median_comments_before_close": [
       0,
       0,
       1,
-      1,
-      1,
+      0.5,
+      0.5,
       1
     ],
     "avg_comments_before_close": [
       1.1,
       1.4,
       2.6,
-      2.3,
-      1.2,
+      2,
+      1.1,
       1.6
     ],
     "median_comments_recent": [
@@ -102,19 +104,19 @@
     ],
     "avg_comments_recent": [
       2.1,
-      1.4,
-      2.6,
+      1.5,
+      2.5,
       1.9,
       1,
-      1
+      0.9
     ],
     "num_toxic": [
       10,
       9,
-      14,
+      15,
       9,
-      4,
-      4
+      3,
+      3
     ],
     "toxic": [
       [],
@@ -215,6 +217,10 @@
           "url": "https://github.com/monarch-initiative/mondo/issues/4610#issuecomment-1156632011"
         },
         {
+          "title": "Questions about MonDO source ontologies",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4589#issuecomment-1066504936"
+        },
+        {
           "title": "[Obsolete] 'pregnancy disorder with abortive outcome'",
           "url": "https://github.com/monarch-initiative/mondo/issues/4584#issuecomment-1109088637"
         },
@@ -244,6 +250,10 @@
         },
         {
           "title": "Fix: Illegal ICD10 Codes",
+          "url": "https://github.com/monarch-initiative/mondo/issues/4524#issuecomment-1048066046"
+        },
+        {
+          "title": "Fix: Illegal ICD10 Codes",
           "url": "https://github.com/monarch-initiative/mondo/issues/4524#issuecomment-1050109380"
         },
         {
@@ -253,10 +263,6 @@
         {
           "title": "scope of processing from OMIM",
           "url": "https://github.com/monarch-initiative/mondo/issues/4521#issuecomment-1062893227"
-        },
-        {
-          "title": "scope of processing from OMIM",
-          "url": "https://github.com/monarch-initiative/mondo/issues/4521#issuecomment-1063022147"
         },
         {
           "title": "scope of processing from OMIM",
@@ -311,10 +317,6 @@
           "url": "https://github.com/monarch-initiative/mondo/issues/4882#issuecomment-1112616160"
         },
         {
-          "title": "obsoleted exact match  MeSH ID for multifocal choroiditis  MONDO:0023833",
-          "url": "https://github.com/monarch-initiative/mondo/issues/4861#issuecomment-1113523387"
-        },
-        {
           "title": "[Merge]  Graves disease",
           "url": "https://github.com/monarch-initiative/mondo/issues/4818#issuecomment-1109072847"
         }
@@ -327,10 +329,6 @@
         {
           "title": "[Obsolete] carpal region disorder",
           "url": "https://github.com/monarch-initiative/mondo/issues/4974#issuecomment-1138936086"
-        },
-        {
-          "title": "primary bone dysplasia",
-          "url": "https://github.com/monarch-initiative/mondo/issues/4948#issuecomment-1151923405"
         },
         {
           "title": "Protege shows false parentage",
@@ -355,56 +353,56 @@
       0.138
     ],
     "label_counts_keys": [
-      "qc-call",
-      "definition",
-      "Branch Review",
-      "susceptibility",
-      "question",
-      "ordo-project",
-      "Chr anomaly/monochrom",
+      "user request",
+      "Revise subclass",
+      "obsolete",
+      "on list",
+      "New term request",
+      "ClinGen",
+      "merge",
+      "relabel term",
+      "xref",
+      "high priority",
+      "bug",
+      "effort-XL",
+      "OMIM",
       "effort-XS",
+      "Curation call",
+      "Branch Review",
       "superclass",
       "split",
-      "xref",
-      "Curation call",
-      "bug",
-      "OMIM",
-      "effort-XL",
-      "relabel term",
-      "high priority",
-      "merge",
-      "ClinGen",
-      "obsolete",
-      "New term request",
-      "on list",
-      "Revise subclass",
-      "user request"
+      "qc-call",
+      "definition",
+      "question",
+      "susceptibility",
+      "Chr anomaly/monochrom",
+      "ordo-project"
     ],
     "label_counts_values": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      2,
-      2,
-      2,
-      2,
-      2,
-      3,
-      3,
-      3,
-      4,
-      4,
-      4,
+      10,
+      8,
+      7,
+      7,
+      7,
       5,
-      6,
-      6,
-      7,
-      7,
-      9
+      5,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
     ],
     "long_standing": [
       {
@@ -438,19 +436,19 @@
   {
     "num_closed": [
       79,
-      113,
-      57,
-      106,
-      95,
-      68
+      120,
+      58,
+      111,
+      92,
+      72
     ],
     "num_closed_0_comments": [
       68,
-      93,
-      46,
-      84,
-      84,
-      60
+      100,
+      47,
+      86,
+      83,
+      63
     ],
     "median_close_time": [
       0,
@@ -470,36 +468,44 @@
     ],
     "num_open": [
       82,
-      114,
-      70,
-      113,
-      101,
-      73
+      121,
+      71,
+      116,
+      97,
+      75
     ],
     "num_unique_authors": [
-      3,
-      6,
+      4,
+      7,
       5,
       6,
-      8,
+      7,
       7
     ],
     "unique_authors": [
+      "dhimmel",
+      "github-actions[bot]",
+      "sabrinatoro",
+      "sagehrke",
       "matentzn",
-      "nicolevasilevsky",
-      "sabrinatoro"
+      "cthoyt",
+      "nicolevasilevsky"
     ],
     "new_authors": [
+      "dhimmel",
+      "github-actions[bot]",
+      "sabrinatoro",
+      "sagehrke",
       "matentzn",
-      "nicolevasilevsky",
-      "sabrinatoro"
+      "cthoyt",
+      "nicolevasilevsky"
     ],
     "num_new_authors": [
-      3,
-      6,
+      4,
+      7,
       5,
       6,
-      8,
+      7,
       7
     ],
     "median_comments_before_close": [
@@ -516,7 +522,7 @@
       0.5,
       0.4,
       0.2,
-      0.1
+      0.2
     ],
     "median_comments_recent": [
       0,
@@ -621,16 +627,16 @@
           "url": "https://github.com/monarch-initiative/mondo/pull/4608#issuecomment-1079272543"
         },
         {
+          "title": "split MONDO:0014253",
+          "url": "https://github.com/monarch-initiative/mondo/pull/4608#issuecomment-1079404749"
+        },
+        {
           "title": "WIP: First round QC for cleaning source metadata",
           "url": "https://github.com/monarch-initiative/mondo/pull/4574#issuecomment-1131383365"
         },
         {
           "title": "WIP: First round QC for cleaning source metadata",
           "url": "https://github.com/monarch-initiative/mondo/pull/4574#issuecomment-1131901341"
-        },
-        {
-          "title": "updated label + added UMLS mapping",
-          "url": "https://github.com/monarch-initiative/mondo/pull/4566#issuecomment-1057469495"
         },
         {
           "title": "add ICD10 grouping term mappings to Mondo terms",
@@ -712,6 +718,10 @@
     ],
     "long_standing": [
       {
+        "title": "merge pigmented villonodular synovitis",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5063"
+      },
+      {
         "title": "Use CURIE syntax for HGNC references",
         "url": "https://github.com/monarch-initiative/mondo/pull/5038"
       },
@@ -722,6 +732,10 @@
     ],
     "most_comments": [
       {
+        "title": "merge pigmented villonodular synovitis",
+        "url": "https://github.com/monarch-initiative/mondo/pull/5063"
+      },
+      {
         "title": "Create qc-duplicate-exact-synonym-no-abbrev.sparql",
         "url": "https://github.com/monarch-initiative/mondo/pull/4958"
       },
@@ -730,10 +744,5 @@
         "url": "https://github.com/monarch-initiative/mondo/pull/5038"
       }
     ]
-  },
-  {},
-  {
-    "total_active": 13,
-    "total_new": 13
   }
 ]
