@@ -477,7 +477,7 @@
       73
     ],
     "num_unique_authors": [
-      4,
+      3,
       6,
       5,
       6,
@@ -486,18 +486,16 @@
     ],
     "unique_authors": [
       "matentzn",
-      "github-actions[bot]",
       "nicolevasilevsky",
       "sabrinatoro"
     ],
     "new_authors": [
       "matentzn",
-      "github-actions[bot]",
       "nicolevasilevsky",
       "sabrinatoro"
     ],
     "num_new_authors": [
-      4,
+      3,
       6,
       5,
       6,
