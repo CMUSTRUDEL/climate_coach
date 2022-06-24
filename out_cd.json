@@ -132,15 +132,19 @@
       0,
       0
     ],
+    "avg_comments_before_close": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "label_counts_keys": [],
     "label_counts_values": [],
     "long_standing": [],
     "most_comments": [],
     "median_comments_before_close": [
-      2,
-      0
-    ],
-    "avg_comments_before_close": [
       2,
       0
     ]
@@ -281,14 +285,19 @@
       0,
       0
     ],
+    "avg_comments_before_close": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
     "label_counts_keys": [],
     "label_counts_values": [],
     "long_standing": [],
     "most_comments": [],
     "median_comments_before_close": [
-      0
-    ],
-    "avg_comments_before_close": [
       0
     ]
   }
