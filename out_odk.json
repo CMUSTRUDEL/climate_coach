@@ -1,0 +1,446 @@
+[
+  {
+    "num_closed": [
+      3,
+      11,
+      0,
+      0,
+      3,
+      3
+    ],
+    "num_closed_0_comments": [
+      2,
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    "median_close_time": [
+      2,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      1.3,
+      5,
+      0,
+      0,
+      5,
+      0
+    ],
+    "num_open": [
+      6,
+      23,
+      12,
+      7,
+      9,
+      10
+    ],
+    "num_unique_authors": [
+      2,
+      4,
+      4,
+      4,
+      5,
+      6
+    ],
+    "unique_authors": [
+      "hrshdhgd",
+      "LilyAndres",
+      "wdduncan",
+      "gouttegd",
+      "luisenriqueramos1977",
+      "matentzn"
+    ],
+    "new_authors": [
+      "hrshdhgd",
+      "LilyAndres",
+      "wdduncan",
+      "gouttegd",
+      "luisenriqueramos1977",
+      "matentzn"
+    ],
+    "num_new_authors": [
+      2,
+      4,
+      4,
+      4,
+      5,
+      6
+    ],
+    "median_comments_before_close": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      5
+    ],
+    "avg_comments_before_close": [
+      0.7,
+      2,
+      0,
+      0,
+      0.7,
+      9
+    ],
+    "median_comments_recent": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      0
+    ],
+    "avg_comments_recent": [
+      2,
+      2,
+      3.1,
+      3.4,
+      3,
+      2.7
+    ],
+    "num_toxic": [
+      0,
+      8,
+      3,
+      2,
+      1,
+      2
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [
+        {
+          "title": "Manual triggered Robot diff for release",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/548#issuecomment-1041440686"
+        },
+        {
+          "title": "Manual triggered Robot diff for release",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/548#issuecomment-1159888297"
+        },
+        {
+          "title": "Docker image incompatible",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/546#issuecomment-1040488319"
+        },
+        {
+          "title": "Docker image incompatible",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/546#issuecomment-1040600040"
+        },
+        {
+          "title": "Adding check to look for IRIs in textual annotations",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/536#issuecomment-1034981324"
+        },
+        {
+          "title": "Adding check to look for IRIs in textual annotations",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/536#issuecomment-1035239759"
+        },
+        {
+          "title": "Adding check to look for IRIs in textual annotations",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/536#issuecomment-1035284213"
+        },
+        {
+          "title": "Adding check to look for IRIs in textual annotations",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/536#issuecomment-1035287041"
+        }
+      ],
+      [
+        {
+          "title": "automate updating ODK in some way",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/572#issuecomment-1084502692"
+        },
+        {
+          "title": "lost foaf_depicted_by",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/568#issuecomment-1067139137"
+        },
+        {
+          "title": "Reconsider updating ODK QC automatically",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/563#issuecomment-1159802006"
+        }
+      ],
+      [
+        {
+          "title": "Add j2 and gh to odkfull",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/585#issuecomment-1132697598"
+        },
+        {
+          "title": "Add oaklib (libraries in path and runoak CLI) to ODK",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/584#issuecomment-1105026155"
+        }
+      ],
+      [
+        {
+          "title": "Please incorporate checks for the dateTime property ",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/587#issuecomment-1108973359"
+        }
+      ],
+      [
+        {
+          "title": "CHEBI and RO mirror issue ",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/623#issuecomment-1162778195"
+        },
+        {
+          "title": "CHEBI and RO mirror issue ",
+          "url": "https://github.com/INCATools/ontology-development-kit/issues/623#issuecomment-1162797134"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.081,
+      0.448,
+      0.23,
+      0.099,
+      0.088,
+      0.083
+    ],
+    "max_attack": [
+      0.019,
+      0.041,
+      0.045,
+      0.024,
+      0.019,
+      0.029
+    ],
+    "label_counts_keys": [
+      "enhancement"
+    ],
+    "label_counts_values": [
+      1
+    ],
+    "long_standing": [
+      {
+        "title": "Robot template processing within ODK",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/613"
+      },
+      {
+        "title": "error when importing dcterms",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/614"
+      },
+      {
+        "title": "Consider replacing some of the SPARQL QC checks with OAK validate",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/610"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Robot template processing within ODK",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/613"
+      },
+      {
+        "title": "error when importing dcterms",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/614"
+      },
+      {
+        "title": "Consider replacing some of the SPARQL QC checks with OAK validate",
+        "url": "https://github.com/INCATools/ontology-development-kit/issues/610"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      3,
+      16,
+      1,
+      1,
+      7,
+      6
+    ],
+    "num_closed_0_comments": [
+      1,
+      5,
+      0,
+      0,
+      3,
+      3
+    ],
+    "median_close_time": [
+      0,
+      0,
+      11,
+      20,
+      0,
+      1
+    ],
+    "avg_close_time": [
+      0,
+      1.3,
+      11,
+      20,
+      3.9,
+      5.8
+    ],
+    "num_open": [
+      5,
+      16,
+      3,
+      1,
+      9,
+      10
+    ],
+    "num_unique_authors": [
+      3,
+      5,
+      3,
+      1,
+      5,
+      2
+    ],
+    "unique_authors": [
+      "anitacaron",
+      "matentzn"
+    ],
+    "new_authors": [
+      "anitacaron",
+      "matentzn"
+    ],
+    "num_new_authors": [
+      3,
+      5,
+      3,
+      1,
+      5,
+      2
+    ],
+    "median_comments_before_close": [
+      1,
+      1,
+      1,
+      5,
+      1,
+      0.5
+    ],
+    "avg_comments_before_close": [
+      0.7,
+      1.6,
+      1,
+      5,
+      1.4,
+      1.5
+    ],
+    "median_comments_recent": [
+      1,
+      1,
+      1,
+      5,
+      1,
+      0
+    ],
+    "avg_comments_recent": [
+      3,
+      1.6,
+      1,
+      5,
+      1.4,
+      1
+    ],
+    "num_toxic": [
+      3,
+      2,
+      0,
+      1,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Updated import docs",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/519#issuecomment-1029827008"
+        },
+        {
+          "title": "Update TaxonRestriction.md",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/513#issuecomment-1012444672"
+        },
+        {
+          "title": "Update TaxonRestriction.md",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/513#issuecomment-1012455444"
+        }
+      ],
+      [
+        {
+          "title": "Make docs deployment daily",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/550#issuecomment-1042108092"
+        },
+        {
+          "title": "Last push 1.3.0",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/530#issuecomment-1036429538"
+        }
+      ],
+      [],
+      [
+        {
+          "title": "Removed files that are repeated in obook",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/578#issuecomment-1077829651"
+        }
+      ],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0.046,
+      0.076,
+      0.062,
+      0.29,
+      0.089,
+      0.104
+    ],
+    "max_attack": [
+      0.021,
+      0.03,
+      0.026,
+      0.024,
+      0.031,
+      0.036
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [
+      {
+        "title": "Make run.sh Java Option handling a bit nicer",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/616"
+      },
+      {
+        "title": "Make Base IRI configurable",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/617"
+      },
+      {
+        "title": "Add functionality to run a GH CLI release",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/618"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Make Base IRI configurable",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/617"
+      },
+      {
+        "title": "Add functionality to run a GH CLI release",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/618"
+      },
+      {
+        "title": "Make run.sh Java Option handling a bit nicer",
+        "url": "https://github.com/INCATools/ontology-development-kit/pull/616"
+      }
+    ]
+  }
+]
