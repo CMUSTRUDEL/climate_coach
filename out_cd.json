@@ -1,0 +1,295 @@
+[
+  {
+    "num_closed": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "num_closed_0_comments": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_comments_recent": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_recent": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "num_open": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "num_unique_authors": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "unique_authors": [],
+    "new_authors": [],
+    "num_new_authors": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "avg_comments": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_commenst": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "new_label_counts": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "num_toxic": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0.025,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_attack": [
+      0.011,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [],
+    "most_comments": [],
+    "median_comments_before_close": [
+      2,
+      0
+    ],
+    "avg_comments_before_close": [
+      2,
+      0
+    ]
+  },
+  {
+    "num_closed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "num_closed_0_comments": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_comments_recent": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_recent": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "num_open": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "num_unique_authors": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "unique_authors": [],
+    "new_authors": [],
+    "num_new_authors": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "avg_comments": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "median_commenst": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "new_label_counts": [
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    "num_toxic": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "max_attack": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [],
+    "most_comments": [],
+    "median_comments_before_close": [
+      0
+    ],
+    "avg_comments_before_close": [
+      0
+    ]
+  }
+]
