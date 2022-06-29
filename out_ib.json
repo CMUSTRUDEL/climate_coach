@@ -1,103 +1,105 @@
 [
   {
     "num_closed": [
+      7,
       0,
+      2,
       0,
       1,
-      6,
-      0,
       0
     ],
     "num_closed_0_comments": [
-      0,
+      1,
       0,
       1,
-      2,
       0,
-      0
-    ],
-    "avg_close_time": [
-      0,
-      0,
-      2,
-      1.7,
       0,
       0
     ],
     "median_close_time": [
-      0,
-      0,
       2,
       0,
+      1,
       0,
+      2,
       0
     ],
-    "median_comments_recent": [
+    "avg_close_time": [
+      3.3,
       0,
+      1,
       0,
-      0,
-      0.5,
-      0,
-      0
-    ],
-    "avg_comments_recent": [
-      0,
-      0,
-      0,
-      3.4,
-      0,
+      2,
       0
     ],
     "num_open": [
-      0,
-      0,
+      11,
+      2,
+      7,
       1,
-      8,
-      0,
-      0
+      5,
+      1
     ],
     "num_unique_authors": [
-      0,
-      0,
+      4,
+      2,
+      2,
       1,
-      5,
-      0,
-      0
+      2,
+      1
     ],
-    "unique_authors": [],
-    "new_authors": [],
+    "unique_authors": [
+      "mlenart1010"
+    ],
+    "new_authors": [
+      "mlenart1010"
+    ],
     "num_new_authors": [
-      0,
+      4,
+      2,
+      2,
+      1,
+      2,
+      1
+    ],
+    "median_comments_before_close": [
+      3,
       0,
       1,
-      5,
       0,
+      2,
       0
     ],
-    "avg_comments": [
+    "avg_comments_before_close": [
+      4.3,
       0,
+      1,
       0,
-      0,
+      2,
       0
     ],
-    "median_commenst": [
+    "median_comments_recent": [
+      2,
+      3.5,
       0,
-      0,
-      0,
+      3,
+      2,
       0
     ],
-    "new_label_counts": [
-      {},
-      {},
-      {},
-      {}
+    "avg_comments_recent": [
+      4.4,
+      3.5,
+      0.4,
+      3,
+      2.8,
+      0
     ],
     "num_toxic": [
+      2,
       0,
       0,
       0,
-      7,
-      0,
+      4,
       0
     ],
     "toxic": [
@@ -109,104 +111,145 @@
       []
     ],
     "neg_senti": [
+      [
+        {
+          "title": "Unique Key Constraints",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/166#issuecomment-1015849406"
+        },
+        {
+          "title": "Add Continuation Token Paging Support to the InMemoryRepository<T>",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/161#issuecomment-1059836054"
+        }
+      ],
       [],
       [],
       [],
       [
         {
-          "title": "SpeechRecognition fails on firefox and crashed blazor application",
-          "url": "https://github.com/IEvangelist/blazorators/issues/28#issuecomment-1099499670"
+          "title": "Support IAsyncEnumerable in the repositoy implementations",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/278#issuecomment-1127303664"
         },
         {
-          "title": "SpeechRecognition fails on firefox and crashed blazor application",
-          "url": "https://github.com/IEvangelist/blazorators/issues/28#issuecomment-1099537567"
+          "title": "Provide the RU's used by an operation",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/275#issuecomment-1127199887"
         },
         {
-          "title": "SpeechRecognition fails on firefox and crashed blazor application",
-          "url": "https://github.com/IEvangelist/blazorators/issues/28#issuecomment-1099546383"
+          "title": "Provide the RU's used by an operation",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/275#issuecomment-1129906057"
         },
         {
-          "title": "SpeechRecognition fails on firefox and crashed blazor application",
-          "url": "https://github.com/IEvangelist/blazorators/issues/28#issuecomment-1099558985"
-        },
-        {
-          "title": "Installing in an empty project breaks the build",
-          "url": "https://github.com/IEvangelist/blazorators/issues/15#issuecomment-1091997878"
-        },
-        {
-          "title": "Installing in an empty project breaks the build",
-          "url": "https://github.com/IEvangelist/blazorators/issues/15#issuecomment-1092442613"
-        },
-        {
-          "title": "Installing in an empty project breaks the build",
-          "url": "https://github.com/IEvangelist/blazorators/issues/15#issuecomment-1092818372"
+          "title": "use System.Text.Json as the Json serializer",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/273#issuecomment-1117618881"
         }
       ],
-      [],
       []
     ],
     "max_toxic": [
-      0,
-      0,
-      0,
-      0.104,
-      0,
+      0.154,
+      0.063,
+      0.014,
+      0.011,
+      0.153,
       0
     ],
     "max_attack": [
-      0,
-      0,
-      0,
-      0.242,
-      0,
-      0
-    ],
-    "avg_comments_before_close": [
-      0,
-      0,
-      0,
-      4.5,
-      0,
+      0.327,
+      0.062,
+      0.071,
+      0.056,
+      0.318,
       0
     ],
     "label_counts_keys": [],
     "label_counts_values": [],
-    "long_standing": [],
-    "most_comments": [],
-    "median_comments_before_close": [
-      0,
-      3
+    "long_standing": [
+      {
+        "title": "Entity Framework Support",
+        "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/282"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Entity Framework Support",
+        "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/issues/282"
+      }
     ]
   },
   {
     "num_closed": [
-      0,
+      28,
+      6,
+      46,
       1,
       1,
-      8,
-      0,
-      0
+      2
     ],
     "num_closed_0_comments": [
-      0,
+      22,
+      4,
+      43,
       1,
       1,
-      5,
-      0,
-      0
-    ],
-    "avg_close_time": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      2
     ],
     "median_close_time": [
       0,
       0,
       0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0.3,
+      3.2,
+      0.1,
+      0,
+      0,
+      0
+    ],
+    "num_open": [
+      29,
+      7,
+      47,
+      2,
+      1,
+      2
+    ],
+    "num_unique_authors": [
+      5,
+      4,
+      4,
+      2,
+      1,
+      1
+    ],
+    "unique_authors": [
+      "mumby0168"
+    ],
+    "new_authors": [
+      "mumby0168"
+    ],
+    "num_new_authors": [
+      5,
+      4,
+      4,
+      2,
+      1,
+      1
+    ],
+    "median_comments_before_close": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_before_close": [
+      1.1,
+      1,
+      0.1,
       0,
       0,
       0
@@ -220,58 +263,17 @@
       0
     ],
     "avg_comments_recent": [
-      0,
-      0,
-      0,
-      0.8,
-      0,
-      0
-    ],
-    "num_open": [
-      0,
+      1.7,
       1,
-      1,
-      8,
-      0,
-      0
-    ],
-    "num_unique_authors": [
-      0,
-      1,
-      1,
-      4,
-      0,
-      0
-    ],
-    "unique_authors": [],
-    "new_authors": [],
-    "num_new_authors": [
-      0,
-      1,
-      1,
-      4,
-      0,
-      0
-    ],
-    "avg_comments": [
+      0.1,
       0,
       0,
       0
-    ],
-    "median_commenst": [
-      0,
-      0,
-      0
-    ],
-    "new_label_counts": [
-      {},
-      {},
-      {}
     ],
     "num_toxic": [
-      0,
-      0,
-      0,
+      4,
+      1,
+      1,
       0,
       0,
       0
@@ -285,45 +287,59 @@
       []
     ],
     "neg_senti": [
-      [],
-      [],
-      [],
+      [
+        {
+          "title": "Update tests to run UT as part of a release",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/196#issuecomment-1018262202"
+        },
+        {
+          "title": "Update tests to run UT as part of a release",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/196#issuecomment-1018535225"
+        },
+        {
+          "title": "GetAsync<T> Optional Type Checking",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/192#issuecomment-1018254771"
+        },
+        {
+          "title": "GetAsync<T> Optional Type Checking",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/192#issuecomment-1018258307"
+        }
+      ],
+      [
+        {
+          "title": "Specification tweaks & acceptance tests",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/200#issuecomment-1025454229"
+        }
+      ],
+      [
+        {
+          "title": "POC: Handle domain object mapping with etag support",
+          "url": "https://github.com/IEvangelist/azure-cosmos-dotnet-repository/pull/225#issuecomment-1063352257"
+        }
+      ],
       [],
       [],
       []
     ],
     "max_toxic": [
+      0.139,
+      0.107,
+      0.029,
       0,
-      0,
-      0,
-      0.043,
       0,
       0
     ],
     "max_attack": [
+      0.509,
+      0.214,
+      0.113,
       0,
-      0,
-      0,
-      0.163,
-      0,
-      0
-    ],
-    "avg_comments_before_close": [
-      0,
-      0,
-      0,
-      0.8,
       0,
       0
     ],
     "label_counts_keys": [],
     "label_counts_values": [],
     "long_standing": [],
-    "most_comments": [],
-    "median_comments_before_close": [
-      0,
-      0,
-      0
-    ]
+    "most_comments": []
   }
 ]
