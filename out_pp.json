@@ -1,0 +1,2040 @@
+[
+  {
+    "num_closed": [
+      25,
+      23,
+      19,
+      26,
+      46,
+      26
+    ],
+    "num_closed_0_comments": [
+      3,
+      6,
+      4,
+      8,
+      15,
+      4
+    ],
+    "median_close_time": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "avg_close_time": [
+      2.9,
+      1.1,
+      3.5,
+      1.3,
+      3.3,
+      3.8
+    ],
+    "num_open": [
+      80,
+      80,
+      67,
+      85,
+      118,
+      67
+    ],
+    "num_unique_authors": [
+      28,
+      31,
+      27,
+      19,
+      41,
+      29
+    ],
+    "unique_authors": [
+      "rshin",
+      "ShantanuKumar",
+      "krawson-bsky",
+      "satwell",
+      "Eric-Arellano",
+      "dimitar-petrov",
+      "achimnol",
+      "stuhood",
+      "ZackKanter",
+      "asherf",
+      "cognifloyd",
+      "THuppke",
+      "chrisjrn",
+      "kaos",
+      "jbasila-orca",
+      "martin-css",
+      "ptrhck",
+      "danxmoran",
+      "xlevus",
+      "alexey-tereshenkov-oxb",
+      "chiefnoah",
+      "thejcannon",
+      "hooksie1",
+      "mpcusack-color",
+      "tdyas",
+      "ced-f",
+      "qaishk",
+      "benjyw",
+      "alonsodomin"
+    ],
+    "new_authors": [
+      "rshin",
+      "ShantanuKumar",
+      "krawson-bsky",
+      "satwell",
+      "Eric-Arellano",
+      "dimitar-petrov",
+      "achimnol",
+      "stuhood",
+      "ZackKanter",
+      "asherf",
+      "cognifloyd",
+      "THuppke",
+      "chrisjrn",
+      "kaos",
+      "jbasila-orca",
+      "martin-css",
+      "ptrhck",
+      "danxmoran",
+      "xlevus",
+      "alexey-tereshenkov-oxb",
+      "chiefnoah",
+      "thejcannon",
+      "hooksie1",
+      "mpcusack-color",
+      "tdyas",
+      "ced-f",
+      "qaishk",
+      "benjyw",
+      "alonsodomin"
+    ],
+    "num_new_authors": [
+      28,
+      31,
+      27,
+      19,
+      41,
+      29
+    ],
+    "median_comments_before_close": [
+      2,
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "avg_comments_before_close": [
+      2.8,
+      3.7,
+      2.8,
+      3.2,
+      3.1,
+      2.6
+    ],
+    "median_comments_recent": [
+      2,
+      3,
+      3,
+      2,
+      1,
+      1
+    ],
+    "avg_comments_recent": [
+      3.2,
+      3.5,
+      3.9,
+      3,
+      2.3,
+      2.3
+    ],
+    "num_toxic": [
+      20,
+      29,
+      38,
+      31,
+      29,
+      17
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [
+        {
+          "toxic_score": 0.0047897073,
+          "attack_score": 0.7435409,
+          "higher_score": 0.7435409,
+          "title": "`overrides` field does not work properly with tag exclusion",
+          "url": "https://github.com/pantsbuild/pants/issues/14977#issuecomment-1092965308"
+        }
+      ],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Proposal: centralize Pants lockfile validation metadata in a single file",
+          "url": "https://github.com/pantsbuild/pants/issues/14281#issuecomment-1023492222"
+        },
+        {
+          "title": "Proposal: centralize Pants lockfile validation metadata in a single file",
+          "url": "https://github.com/pantsbuild/pants/issues/14281#issuecomment-1023516402"
+        },
+        {
+          "title": "Proposal: centralize Pants lockfile validation metadata in a single file",
+          "url": "https://github.com/pantsbuild/pants/issues/14281#issuecomment-1062238075"
+        },
+        {
+          "title": "Pants not finding wheel for package `cryptography`",
+          "url": "https://github.com/pantsbuild/pants/issues/14244#issuecomment-1021386040"
+        },
+        {
+          "title": "Please add Pave.dev to the public list of Pants Users",
+          "url": "https://github.com/pantsbuild/pants/issues/14234#issuecomment-1018807003"
+        },
+        {
+          "title": "Add support for \"Automatic Versioning\" based on Git commits",
+          "url": "https://github.com/pantsbuild/pants/issues/14196#issuecomment-1015949453"
+        },
+        {
+          "title": "File paths  for isort lint run are not scrubbed/stripped properly with workunits.",
+          "url": "https://github.com/pantsbuild/pants/issues/14189#issuecomment-1015915443"
+        },
+        {
+          "title": "Defining tailor.alias_mapping makes tailor runs non-idempotent",
+          "url": "https://github.com/pantsbuild/pants/issues/14180#issuecomment-1015568232"
+        },
+        {
+          "title": "Implicitly add a `scala-library` dependency to scala targets",
+          "url": "https://github.com/pantsbuild/pants/issues/14171#issuecomment-1029369449"
+        },
+        {
+          "title": "`[python].run_against_entire_lockfile` doesn't work (well) with in-repo Pants plguins",
+          "url": "https://github.com/pantsbuild/pants/issues/14160#issuecomment-1012299102"
+        },
+        {
+          "title": "`[python].run_against_entire_lockfile` doesn't work (well) with in-repo Pants plguins",
+          "url": "https://github.com/pantsbuild/pants/issues/14160#issuecomment-1012669012"
+        },
+        {
+          "title": "does pants in any way supports the grpc HTTP/JSON transcoding gateways or proxies?",
+          "url": "https://github.com/pantsbuild/pants/issues/14140#issuecomment-1012607592"
+        },
+        {
+          "title": "Add option to omit certain docker repositories, registries, and/or image tags from publishing",
+          "url": "https://github.com/pantsbuild/pants/issues/14114#issuecomment-1013432638"
+        },
+        {
+          "title": "Add option to omit certain docker repositories, registries, and/or image tags from publishing",
+          "url": "https://github.com/pantsbuild/pants/issues/14114#issuecomment-1088932549"
+        },
+        {
+          "title": "Extend update-build-files goal with yapf formatter",
+          "url": "https://github.com/pantsbuild/pants/issues/14086#issuecomment-1007019178"
+        },
+        {
+          "title": "Extend update-build-files goal with yapf formatter",
+          "url": "https://github.com/pantsbuild/pants/issues/14086#issuecomment-1007825640"
+        },
+        {
+          "title": "v1 JVM dependency checker reports false positives",
+          "url": "https://github.com/pantsbuild/pants/issues/14077#issuecomment-1013936933"
+        },
+        {
+          "title": "v1 JVM dependency checker reports false positives",
+          "url": "https://github.com/pantsbuild/pants/issues/14077#issuecomment-1019561707"
+        },
+        {
+          "title": "Go: consider redesigning third-party metadata to only be what's used",
+          "url": "https://github.com/pantsbuild/pants/issues/14071#issuecomment-1005278481"
+        },
+        {
+          "title": "Go: consider redesigning third-party metadata to only be what's used",
+          "url": "https://github.com/pantsbuild/pants/issues/14071#issuecomment-1005885184"
+        }
+      ],
+      [
+        {
+          "title": "Include pip when running \"export\" goal",
+          "url": "https://github.com/pantsbuild/pants/issues/14622#issuecomment-1052355807"
+        },
+        {
+          "title": "Include pip when running \"export\" goal",
+          "url": "https://github.com/pantsbuild/pants/issues/14622#issuecomment-1052356933"
+        },
+        {
+          "title": "Include pip when running \"export\" goal",
+          "url": "https://github.com/pantsbuild/pants/issues/14622#issuecomment-1052361663"
+        },
+        {
+          "title": "Placeholder: Various (potentially NFS or LMDB) filesystem-related bugs",
+          "url": "https://github.com/pantsbuild/pants/issues/14599#issuecomment-1064714869"
+        },
+        {
+          "title": "Support for \"baking in\" arbitrary environment variables into a .pex file",
+          "url": "https://github.com/pantsbuild/pants/issues/14587#issuecomment-1049355249"
+        },
+        {
+          "title": "Venv PEXes lie about absolutifying `PEX_ROOT`",
+          "url": "https://github.com/pantsbuild/pants/issues/14586#issuecomment-1049336584"
+        },
+        {
+          "title": "Venv PEXes lie about absolutifying `PEX_ROOT`",
+          "url": "https://github.com/pantsbuild/pants/issues/14586#issuecomment-1049337834"
+        },
+        {
+          "title": "Venv PEXes lie about absolutifying `PEX_ROOT`",
+          "url": "https://github.com/pantsbuild/pants/issues/14586#issuecomment-1049338021"
+        },
+        {
+          "title": "Venv PEXes lie about absolutifying `PEX_ROOT`",
+          "url": "https://github.com/pantsbuild/pants/issues/14586#issuecomment-1049340117"
+        },
+        {
+          "title": "coursier post processing script choking on null dependency file in report json",
+          "url": "https://github.com/pantsbuild/pants/issues/14577#issuecomment-1050050517"
+        },
+        {
+          "title": "coursier post processing script choking on null dependency file in report json",
+          "url": "https://github.com/pantsbuild/pants/issues/14577#issuecomment-1050089914"
+        },
+        {
+          "title": "Figure out PyOxidizer `output_path`",
+          "url": "https://github.com/pantsbuild/pants/issues/14565#issuecomment-1048354378"
+        },
+        {
+          "title": "Figure out PyOxidizer `output_path`",
+          "url": "https://github.com/pantsbuild/pants/issues/14565#issuecomment-1049020567"
+        },
+        {
+          "title": "BSP design: expose generator targets via BSP, not file-level targets",
+          "url": "https://github.com/pantsbuild/pants/issues/14563#issuecomment-1048321050"
+        },
+        {
+          "title": "BSP design: expose generator targets via BSP, not file-level targets",
+          "url": "https://github.com/pantsbuild/pants/issues/14563#issuecomment-1048322095"
+        },
+        {
+          "title": "validate type of values passed to dictionary values",
+          "url": "https://github.com/pantsbuild/pants/issues/14507#issuecomment-1048235028"
+        },
+        {
+          "title": "`./pants update-build-files --check` will fail for a `Permission denied` issue when changes needed ",
+          "url": "https://github.com/pantsbuild/pants/issues/14489#issuecomment-1042319560"
+        },
+        {
+          "title": "Figure out codegen's `runtime_dependencies` and multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/issues/14484#issuecomment-1048347591"
+        },
+        {
+          "title": "Figure out codegen's `runtime_dependencies` and multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/issues/14484#issuecomment-1057524686"
+        },
+        {
+          "title": "docker publish get's access denied",
+          "url": "https://github.com/pantsbuild/pants/issues/14483#issuecomment-1047595486"
+        },
+        {
+          "title": "docker publish get's access denied",
+          "url": "https://github.com/pantsbuild/pants/issues/14483#issuecomment-1049792243"
+        },
+        {
+          "title": "`collect_rules()` should error when it encounters duplicate named rules in the file",
+          "url": "https://github.com/pantsbuild/pants/issues/14451#issuecomment-1036574558"
+        },
+        {
+          "title": "`collect_rules()` should error when it encounters duplicate named rules in the file",
+          "url": "https://github.com/pantsbuild/pants/issues/14451#issuecomment-1036578871"
+        },
+        {
+          "title": "`collect_rules()` should error when it encounters duplicate named rules in the file",
+          "url": "https://github.com/pantsbuild/pants/issues/14451#issuecomment-1036599711"
+        },
+        {
+          "title": "Explicitly declared atom/single-file targets use target addresses rather than file addresses",
+          "url": "https://github.com/pantsbuild/pants/issues/14419#issuecomment-1128103177"
+        },
+        {
+          "title": "Improve precision of CI caching recommendation",
+          "url": "https://github.com/pantsbuild/pants/issues/14364#issuecomment-1039263405"
+        },
+        {
+          "title": "Better caching/sharing of heavy, first party imports",
+          "url": "https://github.com/pantsbuild/pants/issues/14354#issuecomment-1035679236"
+        },
+        {
+          "title": "How multiple lockfiles & first-party source plugins work for Pylint, MyPy, Flake8",
+          "url": "https://github.com/pantsbuild/pants/issues/14320#issuecomment-1062444234"
+        },
+        {
+          "title": "Multiplatform Support: choose a different target platform [linux] than the execution platform [macos] ",
+          "url": "https://github.com/pantsbuild/pants/issues/14317#issuecomment-1025306834"
+        }
+      ],
+      [
+        {
+          "title": "Mismatch in interpreter constraints when formatting BUILD files",
+          "url": "https://github.com/pantsbuild/pants/issues/14912#issuecomment-1079302632"
+        },
+        {
+          "title": "Allow configuration of conftest infer on a per `python_test_utils` target",
+          "url": "https://github.com/pantsbuild/pants/issues/14892#issuecomment-1077823751"
+        },
+        {
+          "title": "lockfiles only work if pants.backend.python is activated",
+          "url": "https://github.com/pantsbuild/pants/issues/14876#issuecomment-1077825282"
+        },
+        {
+          "title": "lockfiles only work if pants.backend.python is activated",
+          "url": "https://github.com/pantsbuild/pants/issues/14876#issuecomment-1077892709"
+        },
+        {
+          "title": "`NoCompatibleResolveException` should suggest remedies",
+          "url": "https://github.com/pantsbuild/pants/issues/14864#issuecomment-1117663123"
+        },
+        {
+          "title": "Interpreter constraints and multiple resolves are confusing",
+          "url": "https://github.com/pantsbuild/pants/issues/14863#issuecomment-1100244050"
+        },
+        {
+          "title": "Interpreter constraints and multiple resolves are confusing",
+          "url": "https://github.com/pantsbuild/pants/issues/14863#issuecomment-1100244571"
+        },
+        {
+          "title": "Interpreter constraints and multiple resolves are confusing",
+          "url": "https://github.com/pantsbuild/pants/issues/14863#issuecomment-1107529046"
+        },
+        {
+          "title": "Interpreter constraints and multiple resolves are confusing",
+          "url": "https://github.com/pantsbuild/pants/issues/14863#issuecomment-1107634970"
+        },
+        {
+          "title": "Interpreter constraints and multiple resolves are confusing",
+          "url": "https://github.com/pantsbuild/pants/issues/14863#issuecomment-1116369327"
+        },
+        {
+          "title": "Pants unable to install prophet because of pystan",
+          "url": "https://github.com/pantsbuild/pants/issues/14834#issuecomment-1071862888"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1071007115"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1072437205"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1072451783"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1077852937"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1137492639"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1137815013"
+        },
+        {
+          "title": "Modernizing `objects` and `context_aware_object_factories` (including so it shows up in docsite)",
+          "url": "https://github.com/pantsbuild/pants/issues/14832#issuecomment-1164743166"
+        },
+        {
+          "title": "Fix up our environment handling options now that we have multiple languages",
+          "url": "https://github.com/pantsbuild/pants/issues/14809#issuecomment-1069532950"
+        },
+        {
+          "title": "Fix up our environment handling options now that we have multiple languages",
+          "url": "https://github.com/pantsbuild/pants/issues/14809#issuecomment-1069554419"
+        },
+        {
+          "title": "Always write test xml reports, and under dist/",
+          "url": "https://github.com/pantsbuild/pants/issues/14806#issuecomment-1069295832"
+        },
+        {
+          "title": "Always write test xml reports, and under dist/",
+          "url": "https://github.com/pantsbuild/pants/issues/14806#issuecomment-1069303356"
+        },
+        {
+          "title": "`pyproject.toml` with a default configuration causes \"Can only merge Directories with no duplicates\" bug.",
+          "url": "https://github.com/pantsbuild/pants/issues/14776#issuecomment-1067430565"
+        },
+        {
+          "title": "`pyproject.toml` with a default configuration causes \"Can only merge Directories with no duplicates\" bug.",
+          "url": "https://github.com/pantsbuild/pants/issues/14776#issuecomment-1071029710"
+        },
+        {
+          "title": "mypy git version is ignored",
+          "url": "https://github.com/pantsbuild/pants/issues/14753#issuecomment-1064103720"
+        },
+        {
+          "title": "PEX doesn't use the global cert path",
+          "url": "https://github.com/pantsbuild/pants/issues/14746#issuecomment-1091540640"
+        },
+        {
+          "title": "Allow disabling MyPy and Pylint partioning by multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/issues/14725#issuecomment-1072241254"
+        },
+        {
+          "title": "Allow disabling MyPy and Pylint partioning by multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/issues/14725#issuecomment-1125250947"
+        },
+        {
+          "title": "Allow disabling MyPy and Pylint partioning by multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/issues/14725#issuecomment-1125324739"
+        },
+        {
+          "title": "Can we iterate over `AllTargets` fewer times?",
+          "url": "https://github.com/pantsbuild/pants/issues/14720#issuecomment-1061791705"
+        },
+        {
+          "title": "Can we iterate over `AllTargets` fewer times?",
+          "url": "https://github.com/pantsbuild/pants/issues/14720#issuecomment-1087934468"
+        },
+        {
+          "title": "Optimize Pants's data structures by not sorting as much (`FrozenOrderedSet` and `FrozenDict`)",
+          "url": "https://github.com/pantsbuild/pants/issues/14719#issuecomment-1067945305"
+        },
+        {
+          "title": "Optimize Pants's data structures by not sorting as much (`FrozenOrderedSet` and `FrozenDict`)",
+          "url": "https://github.com/pantsbuild/pants/issues/14719#issuecomment-1068118784"
+        },
+        {
+          "title": "Setting invalid_lockfile_behavior to \"warn\" does not prevent errors",
+          "url": "https://github.com/pantsbuild/pants/issues/14687#issuecomment-1058324883"
+        },
+        {
+          "title": "Allow for --no-binary to be requested for certain dependencies",
+          "url": "https://github.com/pantsbuild/pants/issues/14685#issuecomment-1061252984"
+        },
+        {
+          "title": "Allow for --no-binary to be requested for certain dependencies",
+          "url": "https://github.com/pantsbuild/pants/issues/14685#issuecomment-1062978047"
+        },
+        {
+          "title": "Add support for Tavern Python test runner",
+          "url": "https://github.com/pantsbuild/pants/issues/14684#issuecomment-1059213543"
+        },
+        {
+          "title": "PEP440 direct references pip strings broken in 2.10",
+          "url": "https://github.com/pantsbuild/pants/issues/14682#issuecomment-1057710121"
+        }
+      ],
+      [
+        {
+          "title": "Make it clearer in the documentation what to do for a from-scratch repo",
+          "url": "https://github.com/pantsbuild/pants/issues/15274#issuecomment-1112491824"
+        },
+        {
+          "title": "Make it clearer in the documentation what to do for a from-scratch repo",
+          "url": "https://github.com/pantsbuild/pants/issues/15274#issuecomment-1112525706"
+        },
+        {
+          "title": "`./pants export ::` breaks in `example-python` with `2.11.x`",
+          "url": "https://github.com/pantsbuild/pants/issues/15273#issuecomment-1113896801"
+        },
+        {
+          "title": "Change `complete_platforms` to use file paths rather than target addresses",
+          "url": "https://github.com/pantsbuild/pants/issues/15234#issuecomment-1106940845"
+        },
+        {
+          "title": "Bandit plugin used by flake8 can't read the config from the bandit's config",
+          "url": "https://github.com/pantsbuild/pants/issues/15225#issuecomment-1109873558"
+        },
+        {
+          "title": "`InferDependenciesRequest` should support/allow batching",
+          "url": "https://github.com/pantsbuild/pants/issues/15197#issuecomment-1109036889"
+        },
+        {
+          "title": "Pants uses a version of ujson that is susseptable to buffer overflow",
+          "url": "https://github.com/pantsbuild/pants/issues/15143#issuecomment-1099286741"
+        },
+        {
+          "title": "Default \"type_stub_modules\" deduction using \"types-\" prefix is not working (TypeError: '<' not supported between instances of 'ModuleProviderType' and 'ModuleProviderType').",
+          "url": "https://github.com/pantsbuild/pants/issues/15111#issuecomment-1097707677"
+        },
+        {
+          "title": "Archives (and others) aren't included when building a `python_distribution`",
+          "url": "https://github.com/pantsbuild/pants/issues/15082#issuecomment-1094283510"
+        },
+        {
+          "title": "Archives (and others) aren't included when building a `python_distribution`",
+          "url": "https://github.com/pantsbuild/pants/issues/15082#issuecomment-1098258080"
+        },
+        {
+          "title": "Inaccurate \"remote cache time saved\" total",
+          "url": "https://github.com/pantsbuild/pants/issues/15080#issuecomment-1093337921"
+        },
+        {
+          "title": "`isort` may require transitive sources",
+          "url": "https://github.com/pantsbuild/pants/issues/15069#issuecomment-1141925312"
+        },
+        {
+          "title": "Fail to generate lockfile with pex",
+          "url": "https://github.com/pantsbuild/pants/issues/15058#issuecomment-1092513496"
+        },
+        {
+          "title": "Fail to generate lockfile with pex",
+          "url": "https://github.com/pantsbuild/pants/issues/15058#issuecomment-1092544226"
+        },
+        {
+          "title": "Fail to generate lockfile with pex",
+          "url": "https://github.com/pantsbuild/pants/issues/15058#issuecomment-1092993696"
+        },
+        {
+          "title": "[python] lock file support - pants will include yanked package versions in generated lock file",
+          "url": "https://github.com/pantsbuild/pants/issues/15047#issuecomment-1091948908"
+        },
+        {
+          "title": "Opt-in tags",
+          "url": "https://github.com/pantsbuild/pants/issues/15012#issuecomment-1128873839"
+        },
+        {
+          "title": "Allow higher-log-level logging to file than stdout/stderr",
+          "url": "https://github.com/pantsbuild/pants/issues/15004#issuecomment-1136153563"
+        },
+        {
+          "title": "Pex repository not created if `[python].enable_resolves=true` and the resolve does not use a PEX lockfile",
+          "url": "https://github.com/pantsbuild/pants/issues/14991#issuecomment-1087799120"
+        },
+        {
+          "title": "Pex repository not created if `[python].enable_resolves=true` and the resolve does not use a PEX lockfile",
+          "url": "https://github.com/pantsbuild/pants/issues/14991#issuecomment-1087805533"
+        },
+        {
+          "title": "Pex repository not created if `[python].enable_resolves=true` and the resolve does not use a PEX lockfile",
+          "url": "https://github.com/pantsbuild/pants/issues/14991#issuecomment-1087808433"
+        },
+        {
+          "title": "Pex repository not created if `[python].enable_resolves=true` and the resolve does not use a PEX lockfile",
+          "url": "https://github.com/pantsbuild/pants/issues/14991#issuecomment-1087809144"
+        },
+        {
+          "title": "Pex binary errors when depending on a distribution",
+          "url": "https://github.com/pantsbuild/pants/issues/14983#issuecomment-1086668814"
+        },
+        {
+          "title": "Pex binary errors when depending on a distribution",
+          "url": "https://github.com/pantsbuild/pants/issues/14983#issuecomment-1097440353"
+        },
+        {
+          "title": "Pex binary errors when depending on a distribution",
+          "url": "https://github.com/pantsbuild/pants/issues/14983#issuecomment-1098398813"
+        },
+        {
+          "title": "`overrides` field does not work properly with tag exclusion",
+          "url": "https://github.com/pantsbuild/pants/issues/14977#issuecomment-1085211540"
+        },
+        {
+          "title": "`overrides` field does not work properly with tag exclusion",
+          "url": "https://github.com/pantsbuild/pants/issues/14977#issuecomment-1085224580"
+        },
+        {
+          "title": "`overrides` field does not work properly with tag exclusion",
+          "url": "https://github.com/pantsbuild/pants/issues/14977#issuecomment-1085370884"
+        },
+        {
+          "title": "`overrides` field does not work properly with tag exclusion",
+          "url": "https://github.com/pantsbuild/pants/issues/14977#issuecomment-1123002248"
+        },
+        {
+          "title": "Wrong backend in generated subsystem documentation",
+          "url": "https://github.com/pantsbuild/pants/issues/14940#issuecomment-1088405863"
+        }
+      ],
+      [
+        {
+          "title": "Suport for relative_to in SpecsParser",
+          "url": "https://github.com/pantsbuild/pants/issues/15690#issuecomment-1140043982"
+        },
+        {
+          "title": "Suport for relative_to in SpecsParser",
+          "url": "https://github.com/pantsbuild/pants/issues/15690#issuecomment-1140052903"
+        },
+        {
+          "title": "[python] pants package pex doesn't respect system proxy settings",
+          "url": "https://github.com/pantsbuild/pants/issues/15675#issuecomment-1139693394"
+        },
+        {
+          "title": "[python] pants package pex doesn't respect system proxy settings",
+          "url": "https://github.com/pantsbuild/pants/issues/15675#issuecomment-1143227425"
+        },
+        {
+          "title": "[python] pants package pex doesn't respect system proxy settings",
+          "url": "https://github.com/pantsbuild/pants/issues/15675#issuecomment-1143736522"
+        },
+        {
+          "title": "[python] pants package pex doesn't respect system proxy settings",
+          "url": "https://github.com/pantsbuild/pants/issues/15675#issuecomment-1144465456"
+        },
+        {
+          "title": "Add `allow_unmatched_sources` field to ignore source warnings in pants targets",
+          "url": "https://github.com/pantsbuild/pants/issues/15630#issuecomment-1136427826"
+        },
+        {
+          "title": "Pants export runs slower going from 2.9.0 to 2.11.0",
+          "url": "https://github.com/pantsbuild/pants/issues/15607#issuecomment-1169415948"
+        },
+        {
+          "title": "PathGlobs: allow files to not exist, but still error if their directories do not exist",
+          "url": "https://github.com/pantsbuild/pants/issues/15558#issuecomment-1133024612"
+        },
+        {
+          "title": "Heisenbug: color and dynamic UI turning off using pantsd",
+          "url": "https://github.com/pantsbuild/pants/issues/15532#issuecomment-1131431242"
+        },
+        {
+          "title": "Write an opinionated onboarding guide and identify onboarding papercuts to resolve",
+          "url": "https://github.com/pantsbuild/pants/issues/15525#issuecomment-1130368693"
+        },
+        {
+          "title": "Support transitive file dependencies in Scalatest targets",
+          "url": "https://github.com/pantsbuild/pants/issues/15500#issuecomment-1144755786"
+        },
+        {
+          "title": "Javascript backend's nodejs should used named cache in Pants instead of system",
+          "url": "https://github.com/pantsbuild/pants/issues/15489#issuecomment-1127971165"
+        },
+        {
+          "title": "Javascript backend's nodejs should used named cache in Pants instead of system",
+          "url": "https://github.com/pantsbuild/pants/issues/15489#issuecomment-1128086585"
+        },
+        {
+          "title": "`rule_helper` needs better type annotations",
+          "url": "https://github.com/pantsbuild/pants/issues/15458#issuecomment-1138579802"
+        },
+        {
+          "title": "Proposal: deprecate `[mypy].extra_type_stubs` due to security concerns",
+          "url": "https://github.com/pantsbuild/pants/issues/15455#issuecomment-1126589091"
+        },
+        {
+          "title": "Stop including type stubs in `pex_binary` targets",
+          "url": "https://github.com/pantsbuild/pants/issues/15454#issuecomment-1126879990"
+        },
+        {
+          "title": "--black-skip breaks fmt goal on isort exception",
+          "url": "https://github.com/pantsbuild/pants/issues/15406#issuecomment-1126965215"
+        },
+        {
+          "title": "Add global interpreter_constraints for pants tooling",
+          "url": "https://github.com/pantsbuild/pants/issues/15358#issuecomment-1119925392"
+        },
+        {
+          "title": "Add global interpreter_constraints for pants tooling",
+          "url": "https://github.com/pantsbuild/pants/issues/15358#issuecomment-1119948915"
+        },
+        {
+          "title": "Should [python-infer].inits default to true?",
+          "url": "https://github.com/pantsbuild/pants/issues/15337#issuecomment-1118670640"
+        },
+        {
+          "title": "Should [python-infer].inits default to true?",
+          "url": "https://github.com/pantsbuild/pants/issues/15337#issuecomment-1119678550"
+        },
+        {
+          "title": "Should [python-infer].inits default to true?",
+          "url": "https://github.com/pantsbuild/pants/issues/15337#issuecomment-1119789243"
+        },
+        {
+          "title": "Cannot exclude subsets from being build_ignored",
+          "url": "https://github.com/pantsbuild/pants/issues/15336#issuecomment-1119161407"
+        },
+        {
+          "title": "Docker backend pex_binary inference doesn't fire when using `instructions=`",
+          "url": "https://github.com/pantsbuild/pants/issues/15323#issuecomment-1117614704"
+        },
+        {
+          "title": "Docker backend pex_binary inference doesn't fire when using `instructions=`",
+          "url": "https://github.com/pantsbuild/pants/issues/15323#issuecomment-1119683440"
+        },
+        {
+          "title": "Crash with \"Filesystem changed\"",
+          "url": "https://github.com/pantsbuild/pants/issues/15310#issuecomment-1116870027"
+        },
+        {
+          "title": "'UndefinedEnvironmentName: 'python_full_version' does not exist in evaluation environment' when building lambda with any 3rd party dev on arm64 macOS",
+          "url": "https://github.com/pantsbuild/pants/issues/15296#issuecomment-1118132759"
+        },
+        {
+          "title": "'UndefinedEnvironmentName: 'python_full_version' does not exist in evaluation environment' when building lambda with any 3rd party dev on arm64 macOS",
+          "url": "https://github.com/pantsbuild/pants/issues/15296#issuecomment-1118422904"
+        }
+      ],
+      [
+        {
+          "title": "Genericize codegen pages and add JVM",
+          "url": "https://github.com/pantsbuild/pants/issues/15930#issuecomment-1165779309"
+        },
+        {
+          "title": "Inconsistent sys.excepthook in Python pex environment on Ubuntu Desktop",
+          "url": "https://github.com/pantsbuild/pants/issues/15877#issuecomment-1160167116"
+        },
+        {
+          "title": "`FileExistsError` while building `requirements.pex`",
+          "url": "https://github.com/pantsbuild/pants/issues/15862#issuecomment-1158845051"
+        },
+        {
+          "title": "external docker image as a stage",
+          "url": "https://github.com/pantsbuild/pants/issues/15860#issuecomment-1158795678"
+        },
+        {
+          "title": "Number of `Owners` lookups is proportional to number of CLI specs",
+          "url": "https://github.com/pantsbuild/pants/issues/15802#issuecomment-1156877283"
+        },
+        {
+          "title": "Using python_distribution target as dependency does not honor the dependencies defined in install_requires in setup.py when creates pex_binary",
+          "url": "https://github.com/pantsbuild/pants/issues/15801#issuecomment-1152507300"
+        },
+        {
+          "title": "Using python_distribution target as dependency does not honor the dependencies defined in install_requires in setup.py when creates pex_binary",
+          "url": "https://github.com/pantsbuild/pants/issues/15801#issuecomment-1153187283"
+        },
+        {
+          "title": "Add \"escape hatch\" to avoid long-running `Determine if necessary to partition Pylint input`",
+          "url": "https://github.com/pantsbuild/pants/issues/15784#issuecomment-1150427201"
+        },
+        {
+          "title": "Allow for most pex_binary fields in `pex-binary-defaults`",
+          "url": "https://github.com/pantsbuild/pants/issues/15776#issuecomment-1154160188"
+        },
+        {
+          "title": "Add language support for Rust",
+          "url": "https://github.com/pantsbuild/pants/issues/15775#issuecomment-1154608645"
+        },
+        {
+          "title": "Fatal error when cleaning tempdir after SIGINT",
+          "url": "https://github.com/pantsbuild/pants/issues/15771#issuecomment-1149063918"
+        },
+        {
+          "title": "Fatal error when cleaning tempdir after SIGINT",
+          "url": "https://github.com/pantsbuild/pants/issues/15771#issuecomment-1149162892"
+        },
+        {
+          "title": "pants not able to resolve authentication to a private pypi hosted on aws codeartifact",
+          "url": "https://github.com/pantsbuild/pants/issues/15766#issuecomment-1151646701"
+        },
+        {
+          "title": "pants not able to resolve authentication to a private pypi hosted on aws codeartifact",
+          "url": "https://github.com/pantsbuild/pants/issues/15766#issuecomment-1152071678"
+        },
+        {
+          "title": "Add ability to check if lockfiles are up-to-date with all declared requirements",
+          "url": "https://github.com/pantsbuild/pants/issues/15723#issuecomment-1146896726"
+        },
+        {
+          "title": "Add ability to check if lockfiles are up-to-date with all declared requirements",
+          "url": "https://github.com/pantsbuild/pants/issues/15723#issuecomment-1146908521"
+        },
+        {
+          "title": "No debug information for generate-lockfiles",
+          "url": "https://github.com/pantsbuild/pants/issues/15722#issuecomment-1143807544"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.25,
+      0.317,
+      0.355,
+      0.581,
+      0.418,
+      0.397
+    ],
+    "max_attack": [
+      0.355,
+      0.304,
+      0.659,
+      0.744,
+      0.559,
+      0.559
+    ],
+    "label_counts_keys": [
+      "bug",
+      "enhancement",
+      "lang-python",
+      "onboarding",
+      "lang-jvm",
+      "documentation",
+      "lang-go",
+      "needs-cherrypick",
+      "good first issue",
+      "category:performance",
+      "user-registration",
+      "bsp",
+      "category:documentation"
+    ],
+    "label_counts_values": [
+      30,
+      21,
+      8,
+      5,
+      3,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "long_standing": [
+      {
+        "title": "Add ability to check if lockfiles are up-to-date with all declared requirements",
+        "url": "https://github.com/pantsbuild/pants/issues/15723"
+      },
+      {
+        "title": "No debug information for generate-lockfiles",
+        "url": "https://github.com/pantsbuild/pants/issues/15722"
+      },
+      {
+        "title": "Add ability to extend a PEX lockfile without modifying existing entries",
+        "url": "https://github.com/pantsbuild/pants/issues/15704"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Using python_distribution target as dependency does not honor the dependencies defined in install_requires in setup.py when creates pex_binary",
+        "url": "https://github.com/pantsbuild/pants/issues/15801"
+      },
+      {
+        "title": "Add ability to extend a PEX lockfile without modifying existing entries",
+        "url": "https://github.com/pantsbuild/pants/issues/15704"
+      },
+      {
+        "title": "Inconsistent sys.excepthook in Python pex environment on Ubuntu Desktop",
+        "url": "https://github.com/pantsbuild/pants/issues/15877"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      183,
+      239,
+      204,
+      234,
+      287,
+      196
+    ],
+    "num_closed_0_comments": [
+      101,
+      135,
+      108,
+      136,
+      177,
+      134
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      1,
+      0.6,
+      0.8,
+      0.7,
+      0.3,
+      0.7
+    ],
+    "num_open": [
+      195,
+      265,
+      223,
+      253,
+      301,
+      219
+    ],
+    "num_unique_authors": [
+      13,
+      19,
+      18,
+      13,
+      21,
+      19
+    ],
+    "unique_authors": [
+      "sureshjoshi",
+      "dependabot[bot]",
+      "Eric-Arellano",
+      "naveensrinivasan",
+      "lilatomic",
+      "jyggen",
+      "somdoron",
+      "stuhood",
+      "asherf",
+      "cognifloyd",
+      "chrisjrn",
+      "kaos",
+      "danxmoran",
+      "wisechengyi",
+      "illicitonion",
+      "thejcannon",
+      "tdyas",
+      "alonsodomin",
+      "benjyw"
+    ],
+    "new_authors": [
+      "sureshjoshi",
+      "dependabot[bot]",
+      "Eric-Arellano",
+      "naveensrinivasan",
+      "lilatomic",
+      "jyggen",
+      "somdoron",
+      "stuhood",
+      "asherf",
+      "cognifloyd",
+      "chrisjrn",
+      "kaos",
+      "danxmoran",
+      "wisechengyi",
+      "illicitonion",
+      "thejcannon",
+      "tdyas",
+      "alonsodomin",
+      "benjyw"
+    ],
+    "num_new_authors": [
+      13,
+      19,
+      18,
+      13,
+      21,
+      19
+    ],
+    "median_comments_before_close": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_before_close": [
+      1.2,
+      1,
+      0.9,
+      1.1,
+      1.1,
+      0.7
+    ],
+    "median_comments_recent": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_comments_recent": [
+      1.4,
+      1.3,
+      1.1,
+      1.3,
+      1.2,
+      0.9
+    ],
+    "num_toxic": [
+      50,
+      41,
+      31,
+      33,
+      49,
+      18
+    ],
+    "toxic": [
+      [
+        {
+          "toxic_score": 0.22982138,
+          "attack_score": 0.7343126,
+          "higher_score": 0.7343126,
+          "title": ":speak_no_evil: black and mypy need to shush",
+          "url": "https://github.com/pantsbuild/pants/pull/14129#issuecomment-1032883657"
+        }
+      ],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Add some missing backends to generated docs (Cherry-pick of #14290)",
+          "url": "https://github.com/pantsbuild/pants/pull/14292#issuecomment-1024424460"
+        },
+        {
+          "title": "Add some missing backends to generated docs",
+          "url": "https://github.com/pantsbuild/pants/pull/14290#issuecomment-1024286598"
+        },
+        {
+          "title": "pymongo can be imported (Cherry-pick of #14284)",
+          "url": "https://github.com/pantsbuild/pants/pull/14285#issuecomment-1023620160"
+        },
+        {
+          "title": "[internal] Hook up `[python-repos]` and `manylinux` to Pex lockfile generation",
+          "url": "https://github.com/pantsbuild/pants/pull/14282#issuecomment-1023465981"
+        },
+        {
+          "title": "[internal] Add internal ability to generate lockfiles with PEX",
+          "url": "https://github.com/pantsbuild/pants/pull/14278#issuecomment-1022814681"
+        },
+        {
+          "title": "[internal] Improve `generate_all_lockfiles.sh` script",
+          "url": "https://github.com/pantsbuild/pants/pull/14271#issuecomment-1022611622"
+        },
+        {
+          "title": "Adds `CoursierWrapperProcess` and `JvmProcess`, makes JVM executions less tenuous",
+          "url": "https://github.com/pantsbuild/pants/pull/14270#issuecomment-1022747256"
+        },
+        {
+          "title": "PoC: Adding goal name to dynamic UI output",
+          "url": "https://github.com/pantsbuild/pants/pull/14249#issuecomment-1022253520"
+        },
+        {
+          "title": "PoC: Adding goal name to dynamic UI output",
+          "url": "https://github.com/pantsbuild/pants/pull/14249#issuecomment-1022529260"
+        },
+        {
+          "title": "Simplify Coursier wrapper invocations",
+          "url": "https://github.com/pantsbuild/pants/pull/14242#issuecomment-1020721253"
+        },
+        {
+          "title": "[internal] Refactor consumption of JVM tool lockfiles",
+          "url": "https://github.com/pantsbuild/pants/pull/14239#issuecomment-1020559690"
+        },
+        {
+          "title": "[internal] Refactor consumption of JVM tool lockfiles",
+          "url": "https://github.com/pantsbuild/pants/pull/14239#issuecomment-1020561792"
+        },
+        {
+          "title": "WIP: Upgrade rule parsing to follow calls",
+          "url": "https://github.com/pantsbuild/pants/pull/14238#issuecomment-1020378182"
+        },
+        {
+          "title": "WIP: Upgrade rule parsing to follow calls",
+          "url": "https://github.com/pantsbuild/pants/pull/14238#issuecomment-1064384053"
+        },
+        {
+          "title": "WIP: Upgrade rule parsing to follow calls",
+          "url": "https://github.com/pantsbuild/pants/pull/14238#issuecomment-1065294610"
+        },
+        {
+          "title": "Cap number of UI bars to terminal height",
+          "url": "https://github.com/pantsbuild/pants/pull/14228#issuecomment-1018808948"
+        },
+        {
+          "title": "Optionally render the `--dynamic-ui` with Prodash",
+          "url": "https://github.com/pantsbuild/pants/pull/14221#issuecomment-1023850022"
+        },
+        {
+          "title": "Optionally render the `--dynamic-ui` with Prodash",
+          "url": "https://github.com/pantsbuild/pants/pull/14221#issuecomment-1057544922"
+        },
+        {
+          "title": "Reorganize JVM lockfile code",
+          "url": "https://github.com/pantsbuild/pants/pull/14220#issuecomment-1020406902"
+        },
+        {
+          "title": "Add try/except parsing to import_parser",
+          "url": "https://github.com/pantsbuild/pants/pull/14216#issuecomment-1017462823"
+        },
+        {
+          "title": "[internal] rename some codegen scopes to put language first",
+          "url": "https://github.com/pantsbuild/pants/pull/14187#issuecomment-1015784426"
+        },
+        {
+          "title": "JVM lockfile invalidation headers and verification",
+          "url": "https://github.com/pantsbuild/pants/pull/14185#issuecomment-1016847709"
+        },
+        {
+          "title": "Add plugin support for building PyOxidizer apps",
+          "url": "https://github.com/pantsbuild/pants/pull/14183#issuecomment-1028437196"
+        },
+        {
+          "title": "RFC: Add \"implicit\" dependees flag option",
+          "url": "https://github.com/pantsbuild/pants/pull/14182#issuecomment-1015869867"
+        },
+        {
+          "title": "Don't complain about unowned string imports",
+          "url": "https://github.com/pantsbuild/pants/pull/14179#issuecomment-1015813536"
+        },
+        {
+          "title": "Remove per-language indirection for formatter plugins",
+          "url": "https://github.com/pantsbuild/pants/pull/14166#issuecomment-1012608791"
+        },
+        {
+          "title": ":speak_no_evil: black and mypy need to shush",
+          "url": "https://github.com/pantsbuild/pants/pull/14129#issuecomment-1012579715"
+        },
+        {
+          "title": "Improve error message when a single-file target does not match a file.",
+          "url": "https://github.com/pantsbuild/pants/pull/14113#issuecomment-1007679196"
+        },
+        {
+          "title": "Improve error message when a single-file target does not match a file.",
+          "url": "https://github.com/pantsbuild/pants/pull/14113#issuecomment-1125225503"
+        },
+        {
+          "title": "Fix `validate` goal crashing if not configured",
+          "url": "https://github.com/pantsbuild/pants/pull/14104#issuecomment-1007106254"
+        },
+        {
+          "title": "Fix `validate` goal crashing if not configured",
+          "url": "https://github.com/pantsbuild/pants/pull/14104#issuecomment-1007107301"
+        },
+        {
+          "title": "Deprecate `[validate].detail_level` in favor of `[sourcefile-validation].detail_level`",
+          "url": "https://github.com/pantsbuild/pants/pull/14103#issuecomment-1007816698"
+        },
+        {
+          "title": "Bump hex from 0.3.2 to 0.4.3 in /src/rust/engine",
+          "url": "https://github.com/pantsbuild/pants/pull/14089#issuecomment-1006835270"
+        },
+        {
+          "title": "Move import_parser into it's own file",
+          "url": "https://github.com/pantsbuild/pants/pull/14080#issuecomment-1005814590"
+        },
+        {
+          "title": "Add `#pants: ignore` pragma for ignoring imports",
+          "url": "https://github.com/pantsbuild/pants/pull/14059#issuecomment-1015931007"
+        },
+        {
+          "title": "Add `#pants: ignore` pragma for ignoring imports",
+          "url": "https://github.com/pantsbuild/pants/pull/14059#issuecomment-1017992010"
+        },
+        {
+          "title": "Add the ability to infer assets from strings for Python",
+          "url": "https://github.com/pantsbuild/pants/pull/14049#issuecomment-1022542701"
+        },
+        {
+          "title": "Add the ability to infer assets from strings for Python",
+          "url": "https://github.com/pantsbuild/pants/pull/14049#issuecomment-1022586668"
+        },
+        {
+          "title": "Add the ability to infer assets from strings for Python",
+          "url": "https://github.com/pantsbuild/pants/pull/14049#issuecomment-1022768465"
+        },
+        {
+          "title": "Add the ability to infer assets from strings for Python",
+          "url": "https://github.com/pantsbuild/pants/pull/14049#issuecomment-1061173081"
+        },
+        {
+          "title": "Fix v1 JVM dependency check bug",
+          "url": "https://github.com/pantsbuild/pants/pull/14047#issuecomment-1004157839"
+        },
+        {
+          "title": "Fix v1 JVM dependency check bug",
+          "url": "https://github.com/pantsbuild/pants/pull/14047#issuecomment-1004272162"
+        },
+        {
+          "title": "thrift: add scrooge java backend",
+          "url": "https://github.com/pantsbuild/pants/pull/14043#issuecomment-1004305630"
+        },
+        {
+          "title": "thrift: add scrooge java backend",
+          "url": "https://github.com/pantsbuild/pants/pull/14043#issuecomment-1007956975"
+        },
+        {
+          "title": "[internal] remove a python_tests target where there are no tests",
+          "url": "https://github.com/pantsbuild/pants/pull/14040#issuecomment-1003323152"
+        },
+        {
+          "title": "[internal] remove a python_tests target where there are no tests",
+          "url": "https://github.com/pantsbuild/pants/pull/14040#issuecomment-1003415905"
+        },
+        {
+          "title": "[internal] refactor scrooge codegen to allow for multiple languages",
+          "url": "https://github.com/pantsbuild/pants/pull/14030#issuecomment-1003187947"
+        },
+        {
+          "title": "Add Flake8 first-party plugin support",
+          "url": "https://github.com/pantsbuild/pants/pull/14027#issuecomment-1002835362"
+        },
+        {
+          "title": "Add `cache` field to `docker_image` target.",
+          "url": "https://github.com/pantsbuild/pants/pull/14022#issuecomment-1002718963"
+        }
+      ],
+      [
+        {
+          "title": "Export a pip-ified copy of the requirements venv.",
+          "url": "https://github.com/pantsbuild/pants/pull/14640#issuecomment-1052524951"
+        },
+        {
+          "title": "[internal] Fix namespace package",
+          "url": "https://github.com/pantsbuild/pants/pull/14636#issuecomment-1052151903"
+        },
+        {
+          "title": "[internal] Fix namespace package",
+          "url": "https://github.com/pantsbuild/pants/pull/14636#issuecomment-1052161458"
+        },
+        {
+          "title": "[internal] Fix namespace package",
+          "url": "https://github.com/pantsbuild/pants/pull/14636#issuecomment-1052311156"
+        },
+        {
+          "title": "[internal] Fix namespace package",
+          "url": "https://github.com/pantsbuild/pants/pull/14636#issuecomment-1052331747"
+        },
+        {
+          "title": "[internal] Fix namespace package",
+          "url": "https://github.com/pantsbuild/pants/pull/14636#issuecomment-1052340153"
+        },
+        {
+          "title": "[internal] BSP: refactor spec.py into separate files",
+          "url": "https://github.com/pantsbuild/pants/pull/14624#issuecomment-1051331567"
+        },
+        {
+          "title": "Add `output_path` field to `pyoxidizer_binary` and change its default destination (Cherry-pick of #14607)",
+          "url": "https://github.com/pantsbuild/pants/pull/14611#issuecomment-1050374985"
+        },
+        {
+          "title": "Add `core/util_rules/system_binaries.py` and relocate `archive.py` types like `UnzipBinary` to it",
+          "url": "https://github.com/pantsbuild/pants/pull/14601#issuecomment-1050634134"
+        },
+        {
+          "title": "Fix Go and PyOxidizer to not rely on `/bin/pwd` and `/bin/mkdir`",
+          "url": "https://github.com/pantsbuild/pants/pull/14589#issuecomment-1049468361"
+        },
+        {
+          "title": "Fix PyOxidizer to write to `~/.cache/pants` by using a named cache",
+          "url": "https://github.com/pantsbuild/pants/pull/14582#issuecomment-1049174416"
+        },
+        {
+          "title": "Migrate `experimental_shell_command` to `pants.backend.experimental.shell` as `shell_command`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14548#issuecomment-1048099017"
+        },
+        {
+          "title": "Migrate `experimental_shell_command` to `pants.backend.experimental.shell` as `shell_command`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14548#issuecomment-1048291216"
+        },
+        {
+          "title": "Migrate `experimental_shell_command` to `pants.backend.experimental.shell` as `shell_command`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14548#issuecomment-1048318243"
+        },
+        {
+          "title": "Migrate `experimental_shell_command` to `pants.backend.experimental.shell` as `shell_command`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14548#issuecomment-1126715973"
+        },
+        {
+          "title": "[internal] Avoid duplicated deprecation warnings by memoization.",
+          "url": "https://github.com/pantsbuild/pants/pull/14511#issuecomment-1044093156"
+        },
+        {
+          "title": "jvm: teach dependency inference about multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/pull/14491#issuecomment-1040518966"
+        },
+        {
+          "title": "jvm: teach dependency inference about multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/pull/14491#issuecomment-1040524684"
+        },
+        {
+          "title": "Add the ability for option_type instances to use cls-based default/help/etc...",
+          "url": "https://github.com/pantsbuild/pants/pull/14467#issuecomment-1039326550"
+        },
+        {
+          "title": "[internal] only touch `__init__.py` when running pytest tests",
+          "url": "https://github.com/pantsbuild/pants/pull/14442#issuecomment-1052147120"
+        },
+        {
+          "title": "Allow a falsey docker registry address to indicate image_name only",
+          "url": "https://github.com/pantsbuild/pants/pull/14429#issuecomment-1034532992"
+        },
+        {
+          "title": "Add support for multiple compile/testing JDKs",
+          "url": "https://github.com/pantsbuild/pants/pull/14421#issuecomment-1041934001"
+        },
+        {
+          "title": "Add initial support for a `parametrize` builtin to generate multiple copies of a target",
+          "url": "https://github.com/pantsbuild/pants/pull/14408#issuecomment-1035729877"
+        },
+        {
+          "title": "Loosen pytest reqs to allow upgrade to pytest 7.0.0 + Upgrade to pytest 7",
+          "url": "https://github.com/pantsbuild/pants/pull/14380#issuecomment-1031742609"
+        },
+        {
+          "title": "Loosen pytest reqs to allow upgrade to pytest 7.0.0 + Upgrade to pytest 7",
+          "url": "https://github.com/pantsbuild/pants/pull/14380#issuecomment-1031764795"
+        },
+        {
+          "title": "Loosen pytest reqs to allow upgrade to pytest 7.0.0 + Upgrade to pytest 7",
+          "url": "https://github.com/pantsbuild/pants/pull/14380#issuecomment-1031768660"
+        },
+        {
+          "title": "Migrate the Docker context tags version from `<stage>.tag` to `tags.<stage>`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14376#issuecomment-1032021747"
+        },
+        {
+          "title": "Migrate the Docker context tags version from `<stage>.tag` to `tags.<stage>`.",
+          "url": "https://github.com/pantsbuild/pants/pull/14376#issuecomment-1032321537"
+        },
+        {
+          "title": "[internal] Rolling out Options v2 for codegen directory",
+          "url": "https://github.com/pantsbuild/pants/pull/14366#issuecomment-1030495334"
+        },
+        {
+          "title": "[internal] Remove `python_source_root` from `thrift_source` target",
+          "url": "https://github.com/pantsbuild/pants/pull/14365#issuecomment-1030466942"
+        },
+        {
+          "title": "Standardize how we reference formatters, linters, and checkers in goal summary",
+          "url": "https://github.com/pantsbuild/pants/pull/14355#issuecomment-1030141203"
+        },
+        {
+          "title": "Standardize how we reference formatters, linters, and checkers in goal summary",
+          "url": "https://github.com/pantsbuild/pants/pull/14355#issuecomment-1030149608"
+        },
+        {
+          "title": "Standardize how we reference formatters, linters, and checkers in goal summary",
+          "url": "https://github.com/pantsbuild/pants/pull/14355#issuecomment-1030162476"
+        },
+        {
+          "title": "Standardize how we reference formatters, linters, and checkers in goal summary",
+          "url": "https://github.com/pantsbuild/pants/pull/14355#issuecomment-1030240729"
+        },
+        {
+          "title": "Standardize how we reference formatters, linters, and checkers in goal summary",
+          "url": "https://github.com/pantsbuild/pants/pull/14355#issuecomment-1032730920"
+        },
+        {
+          "title": "Validate Python user lockfiles & improve tool lockfile error message",
+          "url": "https://github.com/pantsbuild/pants/pull/14353#issuecomment-1030282208"
+        },
+        {
+          "title": "POC: Explorer web UI.",
+          "url": "https://github.com/pantsbuild/pants/pull/14348#issuecomment-1032906545"
+        },
+        {
+          "title": "[internal] Move `PexRequirements` to `pex_requirements.py`",
+          "url": "https://github.com/pantsbuild/pants/pull/14328#issuecomment-1027375311"
+        },
+        {
+          "title": "[internal] Better error message for `./pants repl` when using multiple resolves",
+          "url": "https://github.com/pantsbuild/pants/pull/14327#issuecomment-1027381605"
+        },
+        {
+          "title": "Replace `GoalSubsystem.required_union_implementations` with `GoalSubsystem.activated()`",
+          "url": "https://github.com/pantsbuild/pants/pull/14313#issuecomment-1048272172"
+        },
+        {
+          "title": "Add `fmt --style-only` to avoid semantic changes like PyUpgrade and Autoflake",
+          "url": "https://github.com/pantsbuild/pants/pull/14309#issuecomment-1026105619"
+        }
+      ],
+      [
+        {
+          "title": "[internal] restore experimental codegen backends disabled for 2.10 release (Cherry-pick of #14407)",
+          "url": "https://github.com/pantsbuild/pants/pull/14932#issuecomment-1081052059"
+        },
+        {
+          "title": "[internal] restore experimental codegen backends disabled for 2.10 release (Cherry-pick of #14407)",
+          "url": "https://github.com/pantsbuild/pants/pull/14932#issuecomment-1081052413"
+        },
+        {
+          "title": "[internal] add start of a Kotlin backend",
+          "url": "https://github.com/pantsbuild/pants/pull/14918#issuecomment-1079525172"
+        },
+        {
+          "title": "Prepare 2.11.0rc1",
+          "url": "https://github.com/pantsbuild/pants/pull/14916#issuecomment-1083162898"
+        },
+        {
+          "title": "Prepare 2.11.0rc1",
+          "url": "https://github.com/pantsbuild/pants/pull/14916#issuecomment-1083179371"
+        },
+        {
+          "title": "Don't WARN when a spec matches no relevant targets.",
+          "url": "https://github.com/pantsbuild/pants/pull/14904#issuecomment-1078972296"
+        },
+        {
+          "title": "Don't WARN when a spec matches no relevant targets.",
+          "url": "https://github.com/pantsbuild/pants/pull/14904#issuecomment-1078976573"
+        },
+        {
+          "title": "Don't WARN when a spec matches no relevant targets.",
+          "url": "https://github.com/pantsbuild/pants/pull/14904#issuecomment-1078978578"
+        },
+        {
+          "title": "Don't WARN when a spec matches no relevant targets.",
+          "url": "https://github.com/pantsbuild/pants/pull/14904#issuecomment-1083547107"
+        },
+        {
+          "title": "Don't WARN when a spec matches no relevant targets.",
+          "url": "https://github.com/pantsbuild/pants/pull/14904#issuecomment-1083623988"
+        },
+        {
+          "title": "\"Unify\" `fmt` and `lint` rules for formatters",
+          "url": "https://github.com/pantsbuild/pants/pull/14903#issuecomment-1082497078"
+        },
+        {
+          "title": "\"Unify\" `fmt` and `lint` rules for formatters",
+          "url": "https://github.com/pantsbuild/pants/pull/14903#issuecomment-1082498123"
+        },
+        {
+          "title": "hcl parser 3.0.5",
+          "url": "https://github.com/pantsbuild/pants/pull/14878#issuecomment-1076627684"
+        },
+        {
+          "title": "FmtResult now operates on Snapshots",
+          "url": "https://github.com/pantsbuild/pants/pull/14865#issuecomment-1078430076"
+        },
+        {
+          "title": "Ensure in CI that every PR has a category label.",
+          "url": "https://github.com/pantsbuild/pants/pull/14855#issuecomment-1073359407"
+        },
+        {
+          "title": "Merge list values across config files.",
+          "url": "https://github.com/pantsbuild/pants/pull/14850#issuecomment-1081097420"
+        },
+        {
+          "title": "Add dependency inference for django related packages",
+          "url": "https://github.com/pantsbuild/pants/pull/14848#issuecomment-1072420381"
+        },
+        {
+          "title": "Deprecate not explicitly setting `[python].lockfile_generator`",
+          "url": "https://github.com/pantsbuild/pants/pull/14817#issuecomment-1069750587"
+        },
+        {
+          "title": "Deprecate not explicitly setting `[python].lockfile_generator`",
+          "url": "https://github.com/pantsbuild/pants/pull/14817#issuecomment-1069759338"
+        },
+        {
+          "title": "Switch default tool lockfiles to Pex lockfiles for faster installation",
+          "url": "https://github.com/pantsbuild/pants/pull/14811#issuecomment-1069647709"
+        },
+        {
+          "title": "[internal] Support binary shims for paths.",
+          "url": "https://github.com/pantsbuild/pants/pull/14789#issuecomment-1068397419"
+        },
+        {
+          "title": "[internal] Add a useful docstring to `_OptionBase.__new__` and shuffle the parameters",
+          "url": "https://github.com/pantsbuild/pants/pull/14774#issuecomment-1067071640"
+        },
+        {
+          "title": "[internal] Add a useful docstring to `_OptionBase.__new__` and shuffle the parameters",
+          "url": "https://github.com/pantsbuild/pants/pull/14774#issuecomment-1067097183"
+        },
+        {
+          "title": "[internal] Add a useful docstring to `_OptionBase.__new__` and shuffle the parameters",
+          "url": "https://github.com/pantsbuild/pants/pull/14774#issuecomment-1067122244"
+        },
+        {
+          "title": "[internal] Add a useful docstring to `_OptionBase.__new__` and shuffle the parameters",
+          "url": "https://github.com/pantsbuild/pants/pull/14774#issuecomment-1067160850"
+        },
+        {
+          "title": "[internal] Compile string import regex only if it is needed and do it from init to make the script load faster.",
+          "url": "https://github.com/pantsbuild/pants/pull/14717#issuecomment-1061061859"
+        },
+        {
+          "title": "Adds `excludes` field to `jvm_artifact` targets",
+          "url": "https://github.com/pantsbuild/pants/pull/14715#issuecomment-1060963768"
+        },
+        {
+          "title": "Prepare 2.11.0.dev3",
+          "url": "https://github.com/pantsbuild/pants/pull/14708#issuecomment-1059590688"
+        },
+        {
+          "title": "[internal] Add plugin hook for Go codegen support",
+          "url": "https://github.com/pantsbuild/pants/pull/14707#issuecomment-1059444378"
+        },
+        {
+          "title": "Basic support for Helm charts",
+          "url": "https://github.com/pantsbuild/pants/pull/14658#issuecomment-1056054150"
+        },
+        {
+          "title": "Basic support for Helm charts",
+          "url": "https://github.com/pantsbuild/pants/pull/14658#issuecomment-1056723823"
+        }
+      ],
+      [
+        {
+          "title": "[internal] add mark and fixture for lockfile generation, take #2",
+          "url": "https://github.com/pantsbuild/pants/pull/15271#issuecomment-1111235044"
+        },
+        {
+          "title": "Revert \"[internal] add mark and fixture for lockfile generation (#15190)\"",
+          "url": "https://github.com/pantsbuild/pants/pull/15267#issuecomment-1110861333"
+        },
+        {
+          "title": "Merge the JVM first and third party mappings",
+          "url": "https://github.com/pantsbuild/pants/pull/15263#issuecomment-1111066300"
+        },
+        {
+          "title": "Fix the placement of the pex verbosity args. (#15243)",
+          "url": "https://github.com/pantsbuild/pants/pull/15249#issuecomment-1110230614"
+        },
+        {
+          "title": "Fix the placement of the pex verbosity args. (#15243)",
+          "url": "https://github.com/pantsbuild/pants/pull/15249#issuecomment-1110259315"
+        },
+        {
+          "title": "[internal] scala: use lockfile for dependency inference parser",
+          "url": "https://github.com/pantsbuild/pants/pull/15222#issuecomment-1106948404"
+        },
+        {
+          "title": "[internal] scala: use lockfile for dependency inference parser",
+          "url": "https://github.com/pantsbuild/pants/pull/15222#issuecomment-1107043816"
+        },
+        {
+          "title": "Upgrade Pex to 2.1.82.",
+          "url": "https://github.com/pantsbuild/pants/pull/15200#issuecomment-1104175159"
+        },
+        {
+          "title": "Upgrade Pex to 2.1.82.",
+          "url": "https://github.com/pantsbuild/pants/pull/15200#issuecomment-1104247719"
+        },
+        {
+          "title": "[internal] add mark and fixture for lockfile generation",
+          "url": "https://github.com/pantsbuild/pants/pull/15190#issuecomment-1109204771"
+        },
+        {
+          "title": "Work around Git CVE-2022-24765 related failures. (Cherry-pick of #14670 & #15173)",
+          "url": "https://github.com/pantsbuild/pants/pull/15177#issuecomment-1101721591"
+        },
+        {
+          "title": "Work around Git CVE-2022-24765 related failures.",
+          "url": "https://github.com/pantsbuild/pants/pull/15173#issuecomment-1101624934"
+        },
+        {
+          "title": "[internal] jvm: move prefixed `resolve` and `jdk` fields to jvm package",
+          "url": "https://github.com/pantsbuild/pants/pull/15169#issuecomment-1109966477"
+        },
+        {
+          "title": "[internal] jvm: move prefixed `resolve` and `jdk` fields to jvm package",
+          "url": "https://github.com/pantsbuild/pants/pull/15169#issuecomment-1109970024"
+        },
+        {
+          "title": "Allow dashes in inferred asset strings (Cherry-pick of #15123)",
+          "url": "https://github.com/pantsbuild/pants/pull/15154#issuecomment-1100512294"
+        },
+        {
+          "title": "Allow dashes in inferred asset strings",
+          "url": "https://github.com/pantsbuild/pants/pull/15123#issuecomment-1097255482"
+        },
+        {
+          "title": "[internal] cleanup linters to remove separate \"setup\" rules",
+          "url": "https://github.com/pantsbuild/pants/pull/15104#issuecomment-1095649611"
+        },
+        {
+          "title": "Prepare the 2.12.0.dev2 release.",
+          "url": "https://github.com/pantsbuild/pants/pull/15099#issuecomment-1095288763"
+        },
+        {
+          "title": "Support for env var interpolation in config files.",
+          "url": "https://github.com/pantsbuild/pants/pull/15087#issuecomment-1095130292"
+        },
+        {
+          "title": "Throw a `DuplicateRuleError` when there are conflicting rules in a module.",
+          "url": "https://github.com/pantsbuild/pants/pull/15073#issuecomment-1095371901"
+        },
+        {
+          "title": "rule_helpers dont need to be static",
+          "url": "https://github.com/pantsbuild/pants/pull/15072#issuecomment-1092985093"
+        },
+        {
+          "title": "Expose Git as a @rule",
+          "url": "https://github.com/pantsbuild/pants/pull/15030#issuecomment-1090805640"
+        },
+        {
+          "title": "Change JVM defaults to use Temurin JDK distribution",
+          "url": "https://github.com/pantsbuild/pants/pull/15009#issuecomment-1089032763"
+        },
+        {
+          "title": "Add test case showing issue with isort for missing transient deps.",
+          "url": "https://github.com/pantsbuild/pants/pull/15002#issuecomment-1088802964"
+        },
+        {
+          "title": "Add test case showing issue with isort for missing transient deps.",
+          "url": "https://github.com/pantsbuild/pants/pull/15002#issuecomment-1141601324"
+        },
+        {
+          "title": "Pin pytest 7.0.1",
+          "url": "https://github.com/pantsbuild/pants/pull/14997#issuecomment-1088028808"
+        },
+        {
+          "title": "[internal] error in CI if tests skipped",
+          "url": "https://github.com/pantsbuild/pants/pull/14994#issuecomment-1089247298"
+        },
+        {
+          "title": "[internal] Add test skipping to all_major_minor_python_versions",
+          "url": "https://github.com/pantsbuild/pants/pull/14986#issuecomment-1087885479"
+        },
+        {
+          "title": "[internal] Add test skipping to all_major_minor_python_versions",
+          "url": "https://github.com/pantsbuild/pants/pull/14986#issuecomment-1087960526"
+        },
+        {
+          "title": "[internal] Add test skipping to all_major_minor_python_versions",
+          "url": "https://github.com/pantsbuild/pants/pull/14986#issuecomment-1088046853"
+        },
+        {
+          "title": "Support restricting specific dists to just wheels or just sdists.",
+          "url": "https://github.com/pantsbuild/pants/pull/14985#issuecomment-1086744411"
+        },
+        {
+          "title": "Support restricting specific dists to just wheels or just sdists.",
+          "url": "https://github.com/pantsbuild/pants/pull/14985#issuecomment-1088948830"
+        },
+        {
+          "title": "[internal] BSP: use seperate config file for defining groups for BSP build targets",
+          "url": "https://github.com/pantsbuild/pants/pull/14943#issuecomment-1085127077"
+        }
+      ],
+      [
+        {
+          "title": "Add `experimental-explorer` builtin goal.",
+          "url": "https://github.com/pantsbuild/pants/pull/15695#issuecomment-1140221683"
+        },
+        {
+          "title": "Record when the `name=` field is explicitly set ",
+          "url": "https://github.com/pantsbuild/pants/pull/15693#issuecomment-1142500357"
+        },
+        {
+          "title": "Support running pex_binary targets directly on the in-repo sources.",
+          "url": "https://github.com/pantsbuild/pants/pull/15689#issuecomment-1142605348"
+        },
+        {
+          "title": "Support running pex_binary targets directly on the in-repo sources.",
+          "url": "https://github.com/pantsbuild/pants/pull/15689#issuecomment-1143032872"
+        },
+        {
+          "title": "choose correct dialect according to scala-version",
+          "url": "https://github.com/pantsbuild/pants/pull/15649#issuecomment-1138486863"
+        },
+        {
+          "title": "choose correct dialect according to scala-version",
+          "url": "https://github.com/pantsbuild/pants/pull/15649#issuecomment-1138560587"
+        },
+        {
+          "title": "WIP/RFC: \"Coalesced\" process batching",
+          "url": "https://github.com/pantsbuild/pants/pull/15648#issuecomment-1137444704"
+        },
+        {
+          "title": "Ban using short option names like `-x`, except for pre-blessed values",
+          "url": "https://github.com/pantsbuild/pants/pull/15624#issuecomment-1136241498"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136165598"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136172279"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136233327"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136258400"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136287572"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136294854"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1136353639"
+        },
+        {
+          "title": "Add ignore command line arguments, e.g. `-dir::`",
+          "url": "https://github.com/pantsbuild/pants/pull/15619#issuecomment-1137974896"
+        },
+        {
+          "title": "Fix lockfile generation for Docker and Terraform to not require Python backend (Cherry-pick of #15453)",
+          "url": "https://github.com/pantsbuild/pants/pull/15604#issuecomment-1135104408"
+        },
+        {
+          "title": "`filter` options work with any goal now, not only the `filter` goal",
+          "url": "https://github.com/pantsbuild/pants/pull/15599#issuecomment-1134989679"
+        },
+        {
+          "title": "Add `--no-use-deprecated-directory-cli-args-semantics` so that directory arguments match all files/targets in the directory",
+          "url": "https://github.com/pantsbuild/pants/pull/15589#issuecomment-1135121041"
+        },
+        {
+          "title": "[internal] Start of Swift backend for target types and tailor goal",
+          "url": "https://github.com/pantsbuild/pants/pull/15584#issuecomment-1133793745"
+        },
+        {
+          "title": "`update-build-files` now takes CLI args for which BUILD files to change",
+          "url": "https://github.com/pantsbuild/pants/pull/15581#issuecomment-1134717004"
+        },
+        {
+          "title": "Fix Scala inference not inferring a symbol name after a function call",
+          "url": "https://github.com/pantsbuild/pants/pull/15565#issuecomment-1134921324"
+        },
+        {
+          "title": "Deprecate `files_not_found_behavior` in favor of `unmatched_build_file_globs`",
+          "url": "https://github.com/pantsbuild/pants/pull/15555#issuecomment-1132920257"
+        },
+        {
+          "title": "Remove transitive `InterpreterConstraint` merging deprecation",
+          "url": "https://github.com/pantsbuild/pants/pull/15531#issuecomment-1133195214"
+        },
+        {
+          "title": "Always error on non-existent file arguments",
+          "url": "https://github.com/pantsbuild/pants/pull/15530#issuecomment-1130746338"
+        },
+        {
+          "title": "Improve `name=` used for Python requirement target generators with `tailor` (Cherry-pick of #15507)",
+          "url": "https://github.com/pantsbuild/pants/pull/15520#issuecomment-1129954809"
+        },
+        {
+          "title": "Improve `name=` used for `python_requirements` target generators with `tailor` (Cherry-pick of #15507)",
+          "url": "https://github.com/pantsbuild/pants/pull/15519#issuecomment-1129953861"
+        },
+        {
+          "title": "Allow turning off `export` of Python tools like `black`",
+          "url": "https://github.com/pantsbuild/pants/pull/15509#issuecomment-1129225441"
+        },
+        {
+          "title": "`tailor` always sets a target's `name=` and uses less ambiguous names now",
+          "url": "https://github.com/pantsbuild/pants/pull/15506#issuecomment-1129148904"
+        },
+        {
+          "title": "[internal] Add Prettier support for the experimental Javascript backend",
+          "url": "https://github.com/pantsbuild/pants/pull/15480#issuecomment-1126856625"
+        },
+        {
+          "title": "Split our Linux Python test job into 3 shards.",
+          "url": "https://github.com/pantsbuild/pants/pull/15434#issuecomment-1125481530"
+        },
+        {
+          "title": "Split our Linux Python test job into 3 shards.",
+          "url": "https://github.com/pantsbuild/pants/pull/15434#issuecomment-1125486268"
+        },
+        {
+          "title": "Fix boolean logic when merging interpreter constraints.",
+          "url": "https://github.com/pantsbuild/pants/pull/15414#issuecomment-1126196433"
+        },
+        {
+          "title": "Fix boolean logic when merging interpreter constraints.",
+          "url": "https://github.com/pantsbuild/pants/pull/15414#issuecomment-1128087084"
+        },
+        {
+          "title": "Fix `tags` to work with filesystem arguments, `overrides` field, and `python_tests`",
+          "url": "https://github.com/pantsbuild/pants/pull/15394#issuecomment-1124334298"
+        },
+        {
+          "title": "Add build_root_dir BUILD symbol",
+          "url": "https://github.com/pantsbuild/pants/pull/15388#issuecomment-1122693572"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1122531419"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1122538944"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1122592312"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1122595859"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1122986131"
+        },
+        {
+          "title": "Treat imports under \"if TYPE_CHECKING\" as weak.",
+          "url": "https://github.com/pantsbuild/pants/pull/15384#issuecomment-1123020616"
+        },
+        {
+          "title": "kotlin: add support for junit tests",
+          "url": "https://github.com/pantsbuild/pants/pull/15382#issuecomment-1124323729"
+        },
+        {
+          "title": "softwrap improvements",
+          "url": "https://github.com/pantsbuild/pants/pull/15355#issuecomment-1119746788"
+        },
+        {
+          "title": "Stop caching venv in CI due to poisoned cache",
+          "url": "https://github.com/pantsbuild/pants/pull/15342#issuecomment-1118972052"
+        },
+        {
+          "title": "Prepare 2.13.0.dev0",
+          "url": "https://github.com/pantsbuild/pants/pull/15338#issuecomment-1118718646"
+        },
+        {
+          "title": "Eagerly skip tools with default lockfiles in `export-lockfiles` goal (#15304)",
+          "url": "https://github.com/pantsbuild/pants/pull/15309#issuecomment-1116209414"
+        },
+        {
+          "title": "Deprecate `[golang].expected_version` in favor of more flexible `[golang].minimum_expected_version`",
+          "url": "https://github.com/pantsbuild/pants/pull/15306#issuecomment-1115449590"
+        },
+        {
+          "title": "Deprecate `[golang].expected_version` in favor of more flexible `[golang].minimum_expected_version`",
+          "url": "https://github.com/pantsbuild/pants/pull/15306#issuecomment-1116221692"
+        }
+      ],
+      [
+        {
+          "title": "Allow JVM memory controls to bound the process pool size to less than the process parallelism",
+          "url": "https://github.com/pantsbuild/pants/pull/15903#issuecomment-1164109376"
+        },
+        {
+          "title": "Allow JVM memory controls to bound the process pool size to less than the process parallelism",
+          "url": "https://github.com/pantsbuild/pants/pull/15903#issuecomment-1164291958"
+        },
+        {
+          "title": "Scala: should visit ctor args of base type",
+          "url": "https://github.com/pantsbuild/pants/pull/15880#issuecomment-1162339268"
+        },
+        {
+          "title": "Allow for configuring a separate remote cache address",
+          "url": "https://github.com/pantsbuild/pants/pull/15856#issuecomment-1158290367"
+        },
+        {
+          "title": "Remove synchronous remote cache lookup from remote execution",
+          "url": "https://github.com/pantsbuild/pants/pull/15854#issuecomment-1158124042"
+        },
+        {
+          "title": "Remove synchronous remote cache lookup from remote execution",
+          "url": "https://github.com/pantsbuild/pants/pull/15854#issuecomment-1158126608"
+        },
+        {
+          "title": "Remove synchronous remote cache lookup from remote execution",
+          "url": "https://github.com/pantsbuild/pants/pull/15854#issuecomment-1158135451"
+        },
+        {
+          "title": "Add ability to `run` any `PythonSourceField`",
+          "url": "https://github.com/pantsbuild/pants/pull/15849#issuecomment-1162505266"
+        },
+        {
+          "title": "Add ability to `run` any `PythonSourceField`",
+          "url": "https://github.com/pantsbuild/pants/pull/15849#issuecomment-1163152137"
+        },
+        {
+          "title": "Add ability to `run` any `PythonSourceField`",
+          "url": "https://github.com/pantsbuild/pants/pull/15849#issuecomment-1163322341"
+        },
+        {
+          "title": "`fmt` plugins can add new files",
+          "url": "https://github.com/pantsbuild/pants/pull/15846#issuecomment-1157928602"
+        },
+        {
+          "title": "Use Readme.com's new Markdown syntax",
+          "url": "https://github.com/pantsbuild/pants/pull/15845#issuecomment-1157932964"
+        },
+        {
+          "title": "Use Readme.com's new Markdown syntax",
+          "url": "https://github.com/pantsbuild/pants/pull/15845#issuecomment-1157944144"
+        },
+        {
+          "title": "Move the macOS ARM64 build job into the existing test workflows.",
+          "url": "https://github.com/pantsbuild/pants/pull/15805#issuecomment-1152986275"
+        },
+        {
+          "title": "Better error message when an address does not exist",
+          "url": "https://github.com/pantsbuild/pants/pull/15788#issuecomment-1151054494"
+        },
+        {
+          "title": "Add ability to ignore unparented assets when requesting sources",
+          "url": "https://github.com/pantsbuild/pants/pull/15749#issuecomment-1153301710"
+        },
+        {
+          "title": "Add ability to ignore unparented assets when requesting sources",
+          "url": "https://github.com/pantsbuild/pants/pull/15749#issuecomment-1153338923"
+        },
+        {
+          "title": "Prepare 2.12.0rc2",
+          "url": "https://github.com/pantsbuild/pants/pull/15712#issuecomment-1142691903"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.29,
+      0.391,
+      0.426,
+      0.193,
+      0.362,
+      0.23
+    ],
+    "max_attack": [
+      0.734,
+      0.4,
+      0.307,
+      0.49,
+      0.399,
+      0.228
+    ],
+    "label_counts_keys": [
+      "category:internal",
+      "category:bugfix",
+      "category:documentation",
+      "category:user api change",
+      "category:new feature",
+      "category:plugin api change",
+      "needs-cherrypick",
+      "category:performance",
+      "lang-jvm",
+      "lang-go"
+    ],
+    "label_counts_values": [
+      104,
+      35,
+      24,
+      18,
+      14,
+      13,
+      6,
+      5,
+      1,
+      1
+    ],
+    "long_standing": [
+      {
+        "title": "`fmt` plugins can add new files",
+        "url": "https://github.com/pantsbuild/pants/pull/15846"
+      },
+      {
+        "title": "Add new `visibility` field to targets to limit target dependees. ",
+        "url": "https://github.com/pantsbuild/pants/pull/15803"
+      },
+      {
+        "title": "Engine tracebacks use node descriptions.",
+        "url": "https://github.com/pantsbuild/pants/pull/15769"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "`fmt` plugins can add new files",
+        "url": "https://github.com/pantsbuild/pants/pull/15846"
+      },
+      {
+        "title": "Add new `visibility` field to targets to limit target dependees. ",
+        "url": "https://github.com/pantsbuild/pants/pull/15803"
+      },
+      {
+        "title": "Add ability to `run` any `PythonSourceField`",
+        "url": "https://github.com/pantsbuild/pants/pull/15849"
+      }
+    ]
+  }
+]
