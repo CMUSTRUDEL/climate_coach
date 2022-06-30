@@ -49,47 +49,48 @@
       7
     ],
     "unique_authors": [
-      "gouttegd",
-      "StroemPhi",
-      "matentzn",
-      "wdduncan",
       "LilyAndres",
+      "wdduncan",
+      "luisenriqueramos1977",
+      "matentzn",
       "caufieldjh",
-      "luisenriqueramos1977"
+      "gouttegd",
+      "StroemPhi"
     ],
     "new_authors": [
-      "gouttegd",
-      "StroemPhi",
-      "matentzn",
-      "wdduncan",
       "LilyAndres",
-      "caufieldjh",
-      "luisenriqueramos1977"
+      "luisenriqueramos1977",
+      "caufieldjh"
     ],
     "num_new_authors": [
+      1,
+      1,
+      1,
       3,
-      4,
-      4,
-      5,
-      5,
-      7
+      1,
+      3
     ],
-    "recur_authors": [],
+    "recur_authors": [
+      "wdduncan",
+      "matentzn",
+      "gouttegd",
+      "StroemPhi"
+    ],
     "num_recur_authors": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      2,
+      3,
+      3,
+      2,
+      4,
+      4
     ],
     "avg_tenure": [
-      95.8,
-      68.83333333333333,
-      93.33333333333333,
-      60.2,
-      8.8,
-      7
+      662.3333333333334,
+      406.5625,
+      581.2857142857143,
+      357.2,
+      564.1428571428571,
+      413
     ],
     "median_comments_before_close": [
       0,
@@ -323,34 +324,34 @@
       "anitacaron",
       "matentzn"
     ],
-    "new_authors": [
+    "new_authors": [],
+    "num_new_authors": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "recur_authors": [
       "anitacaron",
       "matentzn"
     ],
-    "num_new_authors": [
-      4,
+    "num_recur_authors": [
+      3,
       5,
       3,
       1,
-      5,
+      4,
       2
     ],
-    "recur_authors": [],
-    "num_recur_authors": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
     "avg_tenure": [
-      82.875,
-      21.083333333333332,
-      21.875,
-      19,
-      21.071428571428573,
-      6.857142857142857
+      1107.5384615384614,
+      962.375,
+      1381.2,
+      434,
+      1524.888888888889,
+      804.75
     ],
     "median_comments_before_close": [
       0.5,
@@ -385,7 +386,7 @@
       1.3
     ],
     "num_toxic": [
-      3,
+      4,
       2,
       1,
       1,
@@ -405,6 +406,10 @@
         {
           "title": "Updated import docs",
           "url": "https://github.com/INCATools/ontology-development-kit/pull/519#issuecomment-1029827008"
+        },
+        {
+          "title": "Update TaxonRestriction.md",
+          "url": "https://github.com/INCATools/ontology-development-kit/pull/513#issuecomment-1012401756"
         },
         {
           "title": "Update TaxonRestriction.md",
