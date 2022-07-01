@@ -49,18 +49,18 @@
       7
     ],
     "unique_authors": [
-      "LilyAndres",
-      "wdduncan",
-      "luisenriqueramos1977",
-      "matentzn",
       "caufieldjh",
+      "matentzn",
       "gouttegd",
+      "luisenriqueramos1977",
+      "wdduncan",
+      "LilyAndres",
       "StroemPhi"
     ],
     "new_authors": [
-      "LilyAndres",
+      "caufieldjh",
       "luisenriqueramos1977",
-      "caufieldjh"
+      "LilyAndres"
     ],
     "num_new_authors": [
       1,
@@ -71,9 +71,9 @@
       3
     ],
     "recur_authors": [
-      "wdduncan",
       "matentzn",
       "gouttegd",
+      "wdduncan",
       "StroemPhi"
     ],
     "num_recur_authors": [
@@ -85,12 +85,12 @@
       4
     ],
     "avg_tenure": [
-      662.3333333333334,
-      406.5625,
-      581.2857142857143,
-      357.2,
-      564.1428571428571,
-      413
+      22.07777777777778,
+      13.552083333333334,
+      19.376190476190477,
+      11.906666666666666,
+      18.807142857142857,
+      13.766666666666667
     ],
     "median_comments_before_close": [
       0,
@@ -346,12 +346,12 @@
       2
     ],
     "avg_tenure": [
-      1107.5384615384614,
-      962.375,
-      1381.2,
-      434,
-      1524.888888888889,
-      804.75
+      36.91794871794872,
+      32.08333333333333,
+      46.04666666666667,
+      14.466666666666667,
+      50.837037037037035,
+      26.825
     ],
     "median_comments_before_close": [
       0.5,
@@ -490,6 +490,43 @@
         "title": "Make run.sh Java Option handling a bit nicer",
         "url": "https://github.com/INCATools/ontology-development-kit/pull/616"
       }
+    ]
+  },
+  {
+    "num_active_authors": [
+      8,
+      14,
+      7,
+      5,
+      4
+    ],
+    "num_issue_closed": [
+      2,
+      14,
+      6,
+      1,
+      1
+    ],
+    "num_pr_closed": [
+      3,
+      97,
+      0,
+      5,
+      2
+    ],
+    "avg_time_issue": [
+      0,
+      6.857142857142857,
+      4.5,
+      0,
+      0
+    ],
+    "avg_time_pr": [
+      4,
+      0.44329896907216493,
+      0,
+      0,
+      0
     ]
   }
 ]
