@@ -1,0 +1,968 @@
+[
+  {
+    "num_closed": [
+      38,
+      29,
+      41,
+      33,
+      29,
+      22
+    ],
+    "num_closed_0_comments": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0.2,
+      0,
+      1.2,
+      0,
+      0,
+      0.7
+    ],
+    "num_open": [
+      38,
+      31,
+      39,
+      34,
+      30,
+      22
+    ],
+    "num_unique_authors": [
+      33,
+      28,
+      37,
+      32,
+      29,
+      21
+    ],
+    "unique_authors": [
+      "matteius",
+      "yezz123",
+      "gbirka-r7",
+      "Niccolum",
+      "Mara-Li",
+      "andresmanelli",
+      "paul-english",
+      "peitili",
+      "Andreagit97",
+      "ghuntley",
+      "Activity00",
+      "nextstate",
+      "wolfboyft",
+      "nbjohnson",
+      "janosh",
+      "adam-grant-hendry",
+      "acdha",
+      "iainsmith",
+      "willjhenry",
+      "benthevining",
+      "sluongng"
+    ],
+    "new_authors": [
+      "matteius",
+      "yezz123",
+      "gbirka-r7",
+      "Mara-Li",
+      "andresmanelli",
+      "paul-english",
+      "peitili",
+      "Andreagit97",
+      "ghuntley",
+      "Activity00",
+      "nextstate",
+      "wolfboyft",
+      "nbjohnson",
+      "iainsmith",
+      "willjhenry",
+      "sluongng"
+    ],
+    "num_new_authors": [
+      28,
+      25,
+      27,
+      26,
+      26,
+      16
+    ],
+    "recur_authors": [
+      "Niccolum",
+      "janosh",
+      "adam-grant-hendry",
+      "acdha",
+      "benthevining"
+    ],
+    "num_recur_authors": [
+      5,
+      3,
+      10,
+      6,
+      3,
+      5
+    ],
+    "avg_tenure": [
+      9.94848484848485,
+      6.994623655913978,
+      8.549593495934959,
+      5.525490196078431,
+      4.532183908045977,
+      4.915873015873016
+    ],
+    "median_comments_before_close": [
+      2,
+      3,
+      3,
+      3,
+      2,
+      2.5
+    ],
+    "avg_comments_before_close": [
+      2.8,
+      4.3,
+      3,
+      3.9,
+      3.5,
+      3.9
+    ],
+    "median_comments_recent": [
+      2,
+      3,
+      3,
+      2.5,
+      2,
+      2.5
+    ],
+    "avg_comments_recent": [
+      2.8,
+      4.1,
+      3.1,
+      3.9,
+      3.5,
+      3.9
+    ],
+    "num_toxic": [
+      15,
+      29,
+      17,
+      30,
+      16,
+      17
+    ],
+    "toxic": [
+      [],
+      [
+        {
+          "toxic_score": 0.3955794,
+          "attack_score": 0.8617135,
+          "higher_score": 0.8617135,
+          "title": "undefined behavior with multiple pyproject.toml",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2267#issuecomment-1058782863"
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Unexpected version picked by pre-commit autoupdate",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2230#issuecomment-1027438217"
+        },
+        {
+          "title": "Unexpected version picked by pre-commit autoupdate",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2230#issuecomment-1027444277"
+        },
+        {
+          "title": "tag stage",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2226#issuecomment-1025153612"
+        },
+        {
+          "title": "Selecting by extension not working",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2222#issuecomment-1021220241"
+        },
+        {
+          "title": "Selecting by extension not working",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2222#issuecomment-1021222409"
+        },
+        {
+          "title": "Improve message for `pre-commit install`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2219#issuecomment-1020181398"
+        },
+        {
+          "title": "Autoupdate to correct references of \"git://github.com/\"",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2212#issuecomment-1014562587"
+        },
+        {
+          "title": "Autoupdate to correct references of \"git://github.com/\"",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2212#issuecomment-1014848800"
+        },
+        {
+          "title": "end-of-file-fixer add always a new line for .gitignore files",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2206#issuecomment-1013496633"
+        },
+        {
+          "title": "end-of-file-fixer add always a new line for .gitignore files",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2206#issuecomment-1013516189"
+        },
+        {
+          "title": "Allow to `mamba install` environments",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2204#issuecomment-1013646601"
+        },
+        {
+          "title": "configuration with stages: [\"commit-msg\"] and pass_filenames: false should error",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2202#issuecomment-1010434762"
+        },
+        {
+          "title": "legacy_hook, ExecutableNotFoundError: on Windows",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2196#issuecomment-1008911088"
+        },
+        {
+          "title": "Use pyproject.toml for configuring pre-commit",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2188#issuecomment-1005995699"
+        },
+        {
+          "title": "Permit to pass file list as environnment parameters",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2186#issuecomment-1005703085"
+        }
+      ],
+      [
+        {
+          "title": "An unexpected error has occurred: AssertionError: BUG: expected environment for python to be healthy() immediately after install, please open an issue describing your environment ",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2270#issuecomment-1059224576"
+        },
+        {
+          "title": "An unexpected error has occurred: AssertionError: BUG: expected environment for python to be healthy() immediately after install, please open an issue describing your environment ",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2270#issuecomment-1059228716"
+        },
+        {
+          "title": "pre-commit Passed badge has very poor contrast (gray on green)",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2268#issuecomment-1059196647"
+        },
+        {
+          "title": "undefined behavior with multiple pyproject.toml",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2267#issuecomment-1058741035"
+        },
+        {
+          "title": "undefined behavior with multiple pyproject.toml",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2267#issuecomment-1058778420"
+        },
+        {
+          "title": "undefined behavior with multiple pyproject.toml",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2267#issuecomment-1058782863"
+        },
+        {
+          "title": "undefined behavior with multiple pyproject.toml",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2267#issuecomment-1058796854"
+        },
+        {
+          "title": "Running autoupdate hangs for about 5-10 minutes for each repo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2265#issuecomment-1057305685"
+        },
+        {
+          "title": "Running autoupdate hangs for about 5-10 minutes for each repo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2265#issuecomment-1057351604"
+        },
+        {
+          "title": "Pre-commit does not work on Windows using Pip v22",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2263#issuecomment-1056940069"
+        },
+        {
+          "title": "Pre-commit does not work on Windows using Pip v22",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2263#issuecomment-1056948176"
+        },
+        {
+          "title": "Can't find git in WSL2",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2258#issuecomment-1049922248"
+        },
+        {
+          "title": "Feature Implmentation: Summary info optionally output in JSON format",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2256#issuecomment-1048062717"
+        },
+        {
+          "title": "Make copy-paste easier with wording of \"Stashing unstaged files\" message",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2251#issuecomment-1043529759"
+        },
+        {
+          "title": "pre-commit autoupdate --freeze with oxipng breaks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2250#issuecomment-1043306658"
+        },
+        {
+          "title": "question: steps to change working directory with or without args",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2249#issuecomment-1042954862"
+        },
+        {
+          "title": "feature: Skip some hooks when using `--all-files`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2247#issuecomment-1042443925"
+        },
+        {
+          "title": "feature: Skip some hooks when using `--all-files`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2247#issuecomment-1042455231"
+        },
+        {
+          "title": "pre-commit install silently fails when running in git-bash",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2245#issuecomment-1039287014"
+        },
+        {
+          "title": "Switch to `tomli`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2243#issuecomment-1034956449"
+        },
+        {
+          "title": "Switch to `tomli`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2243#issuecomment-1036226057"
+        },
+        {
+          "title": "Switch to `tomli`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2243#issuecomment-1036438838"
+        },
+        {
+          "title": "Switch to `tomli`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2243#issuecomment-1036447048"
+        },
+        {
+          "title": "feature request: mode to exit 0 if only autofixes were triggered",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2240#issuecomment-1033999548"
+        },
+        {
+          "title": "git commit fails to install environment in a git repo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2239#issuecomment-1032857578"
+        },
+        {
+          "title": "git commit fails to install environment in a git repo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2239#issuecomment-1033609425"
+        },
+        {
+          "title": "SQLFluff dbt | Additional properties are not allowed ('seed-paths', 'model-paths' were unexpected).",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2238#issuecomment-1031473029"
+        },
+        {
+          "title": "Global hook to detect pre-commit config per repo and run if present",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2233#issuecomment-1031857672"
+        }
+      ],
+      [
+        {
+          "title": "too many knobs and switches: sane-default-config",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2327#issuecomment-1087806220"
+        },
+        {
+          "title": "too many knobs and switches: sane-default-config",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2327#issuecomment-1087813950"
+        },
+        {
+          "title": "Does not recognise `async` with Python",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2321#issuecomment-1085550678"
+        },
+        {
+          "title": "Feature request: Allow custom install for system hooks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2316#issuecomment-1083590121"
+        },
+        {
+          "title": "Feature request: Allow custom install for system hooks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2316#issuecomment-1083637417"
+        },
+        {
+          "title": "pre-commit requires system-installed dotnet",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2314#issuecomment-1083131369"
+        },
+        {
+          "title": "pre-commit requires system-installed dotnet",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2314#issuecomment-1083131498"
+        },
+        {
+          "title": "pre-commit requires system-installed dotnet",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2314#issuecomment-1083160812"
+        },
+        {
+          "title": "pre-commit requires system-installed dotnet",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2314#issuecomment-1083267046"
+        },
+        {
+          "title": "pre-commit + black no longer working bc pre-commit does not lock dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2309#issuecomment-1081155784"
+        },
+        {
+          "title": "Command `run` should allow external `diff` drivers on `--show-diff-on-failure`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2307#issuecomment-1080927772"
+        },
+        {
+          "title": "`pre-commit` not found.  Did you forget to activate your virtualenv?- using RHEL",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2306#issuecomment-1080594896"
+        },
+        {
+          "title": "pre-commit auto update is not setting latest tag of repository",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2291#issuecomment-1068279787"
+        },
+        {
+          "title": "Feature Request: ability to invoke a different pre-commit config",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2289#issuecomment-1067488556"
+        },
+        {
+          "title": "Pre-commit does not always automatically re-apply patch when stopped with Ctrl-C",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2287#issuecomment-1067326883"
+        },
+        {
+          "title": "Add hook id to the console output of hooks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2282#issuecomment-1066151440"
+        },
+        {
+          "title": "Switch to `tomli`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2243#issuecomment-1081918869"
+        }
+      ],
+      [
+        {
+          "title": "pre-commit errors on libsonnet, tf and tfvars files.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2373#issuecomment-1117412394"
+        },
+        {
+          "title": "pre-commit errors on libsonnet, tf and tfvars files.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2373#issuecomment-1117416927"
+        },
+        {
+          "title": "pre-commit errors on libsonnet, tf and tfvars files.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2373#issuecomment-1117431783"
+        },
+        {
+          "title": "pre-commit errors on libsonnet, tf and tfvars files.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2373#issuecomment-1117459602"
+        },
+        {
+          "title": "pre-commit errors on libsonnet, tf and tfvars files.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2373#issuecomment-1117511296"
+        },
+        {
+          "title": "using pre-commit install from WSL",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2371#issuecomment-1116394283"
+        },
+        {
+          "title": "Adding `pip-audit` fails with pre-commit.ci due to `pip` support",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2368#issuecomment-1114287794"
+        },
+        {
+          "title": "Adding `pip-audit` fails with pre-commit.ci due to `pip` support",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2368#issuecomment-1114289321"
+        },
+        {
+          "title": "Autoupdate inconsistency",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2366#issuecomment-1111128546"
+        },
+        {
+          "title": "Autoupdate inconsistency",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2366#issuecomment-1111141239"
+        },
+        {
+          "title": "Autoupdate inconsistency",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2366#issuecomment-1111146520"
+        },
+        {
+          "title": "Flake8 --per-file-ignores critical error in pre-commit #757",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2361#issuecomment-1107895057"
+        },
+        {
+          "title": "Multi-language additional_dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2357#issuecomment-1107473406"
+        },
+        {
+          "title": "Multi-language additional_dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2357#issuecomment-1107511966"
+        },
+        {
+          "title": "Multi-language additional_dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2357#issuecomment-1107512130"
+        },
+        {
+          "title": "Multi-language additional_dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2357#issuecomment-1107807789"
+        },
+        {
+          "title": "Multi-language additional_dependencies",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2357#issuecomment-1107854929"
+        },
+        {
+          "title": "Apparently similar to issue 1458 but without conda-forge (ref: pre-commit repeatedly installs environments when nothing has changed #1458)",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2354#issuecomment-1106473889"
+        },
+        {
+          "title": "Apparently similar to issue 1458 but without conda-forge (ref: pre-commit repeatedly installs environments when nothing has changed #1458)",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2354#issuecomment-1106638054"
+        },
+        {
+          "title": "How to activate Python venv before running pre-commit?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2341#issuecomment-1098004962"
+        },
+        {
+          "title": "Support `repos` argument for `pre-commit clean`",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2338#issuecomment-1095713131"
+        },
+        {
+          "title": "Ability to include additional hooks ",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2337#issuecomment-1094340478"
+        },
+        {
+          "title": "Ability to include additional hooks ",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2337#issuecomment-1094894058"
+        },
+        {
+          "title": "update to Python 3.10, pre-commit fails",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2336#issuecomment-1108632910"
+        },
+        {
+          "title": "allow yaml !include to have a distributed config file",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2335#issuecomment-1093342637"
+        },
+        {
+          "title": "Argument list splitting seems off by one",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2333#issuecomment-1091674716"
+        },
+        {
+          "title": "precommit for elixir monorepo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2330#issuecomment-1089037968"
+        },
+        {
+          "title": "precommit for elixir monorepo",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2330#issuecomment-1090038032"
+        },
+        {
+          "title": "Checking commit ranges with `commit-msg` hooks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2290#issuecomment-1111049343"
+        },
+        {
+          "title": "push does not triggers pre-commit hooks",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2281#issuecomment-1104456320"
+        }
+      ],
+      [
+        {
+          "title": "Possibility to add additional volumes/environment variables when running `docker` hook",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2412#issuecomment-1144965513"
+        },
+        {
+          "title": "import yaml ModuleNotFoundError: No module named 'yaml'",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2411#issuecomment-1144809311"
+        },
+        {
+          "title": "import yaml ModuleNotFoundError: No module named 'yaml'",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2411#issuecomment-1144823827"
+        },
+        {
+          "title": "import yaml ModuleNotFoundError: No module named 'yaml'",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2411#issuecomment-1144827824"
+        },
+        {
+          "title": "import yaml ModuleNotFoundError: No module named 'yaml'",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2411#issuecomment-1144830896"
+        },
+        {
+          "title": "Docker Image based hook fails cache creation",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2408#issuecomment-1140489024"
+        },
+        {
+          "title": "prepare-commit-msg Not passing all parameters",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2406#issuecomment-1140036911"
+        },
+        {
+          "title": "Node/Npm hooks still fails in Windows",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2402#issuecomment-1133639256"
+        },
+        {
+          "title": "Feat: Allow overriding plugin args on commandline",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2399#issuecomment-1132597695"
+        },
+        {
+          "title": "Feat: Allow overriding plugin args on commandline",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2399#issuecomment-1132821924"
+        },
+        {
+          "title": "Bandit Pre-commit hook",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2398#issuecomment-1133342180"
+        },
+        {
+          "title": "Add support for TypeScript check (tsc)",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2396#issuecomment-1127584409"
+        },
+        {
+          "title": "pre-installing additional_dependencies before the main hook package",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2386#issuecomment-1121035416"
+        },
+        {
+          "title": "pre-commit install-hooks should run without git tree",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2378#issuecomment-1119827619"
+        },
+        {
+          "title": "Create a Docker image for this application",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2377#issuecomment-1118962159"
+        },
+        {
+          "title": "Namespace clash with `inspect` package",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2376#issuecomment-1118526970"
+        }
+      ],
+      [
+        {
+          "title": "pre-commit run error:  Running error: linter \"gci\" can't be disabled and enabled at one moment",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2438#issuecomment-1173107952"
+        },
+        {
+          "title": "Bad UX when patch can not be reapplied after stash",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2435#issuecomment-1172511082"
+        },
+        {
+          "title": "[question] How to pass login/password to git hook?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2431#issuecomment-1166502243"
+        },
+        {
+          "title": "[question] How to pass login/password to git hook?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2431#issuecomment-1166503628"
+        },
+        {
+          "title": "pre-commit on stopped working when I upgraded to git version 2.36.1.windows.1",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2430#issuecomment-1165507652"
+        },
+        {
+          "title": "pre-commit on stopped working when I upgraded to git version 2.36.1.windows.1",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2430#issuecomment-1165513475"
+        },
+        {
+          "title": "pre-commit on stopped working when I upgraded to git version 2.36.1.windows.1",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2430#issuecomment-1165555723"
+        },
+        {
+          "title": "pre-commit on stopped working when I upgraded to git version 2.36.1.windows.1",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2430#issuecomment-1165561773"
+        },
+        {
+          "title": "Installing hook environments fails",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2428#issuecomment-1162120152"
+        },
+        {
+          "title": "Access input file names in system hooks?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2427#issuecomment-1160498427"
+        },
+        {
+          "title": "Access input file names in system hooks?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2427#issuecomment-1160528000"
+        },
+        {
+          "title": "Access input file names in system hooks?",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2427#issuecomment-1160529993"
+        },
+        {
+          "title": "Loss of changes.",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2425#issuecomment-1158236285"
+        },
+        {
+          "title": "Private hook repo authentication issue",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2420#issuecomment-1154490681"
+        },
+        {
+          "title": "\"DLL load failed while importing _ctypes\" conda with python 3.10",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2417#issuecomment-1152806760"
+        },
+        {
+          "title": "unstaged stashed files not applied, thinks there is a new file",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2414#issuecomment-1147993325"
+        },
+        {
+          "title": "unstaged stashed files not applied, thinks there is a new file",
+          "url": "https://github.com/pre-commit/pre-commit/issues/2414#issuecomment-1148110667"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.415,
+      0.396,
+      0.344,
+      0.596,
+      0.448,
+      0.413
+    ],
+    "max_attack": [
+      0.551,
+      0.862,
+      0.252,
+      0.403,
+      0.335,
+      0.61
+    ],
+    "label_counts_keys": [
+      "question",
+      "upstream-bug",
+      "windows"
+    ],
+    "label_counts_values": [
+      86,
+      29,
+      2
+    ],
+    "long_standing": [
+      {
+        "title": "more open source funding available from Gitpod",
+        "url": "https://github.com/pre-commit/pre-commit/issues/2423"
+      },
+      {
+        "title": "Support `repos` argument for `pre-commit clean`",
+        "url": "https://github.com/pre-commit/pre-commit/issues/2338"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "more open source funding available from Gitpod",
+        "url": "https://github.com/pre-commit/pre-commit/issues/2423"
+      },
+      {
+        "title": "Support `repos` argument for `pre-commit clean`",
+        "url": "https://github.com/pre-commit/pre-commit/issues/2338"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      11,
+      5,
+      18,
+      11,
+      8,
+      6
+    ],
+    "num_closed_0_comments": [
+      8,
+      1,
+      13,
+      6,
+      4,
+      4
+    ],
+    "median_close_time": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0.2,
+      0,
+      3.1,
+      0.7,
+      0,
+      2.3
+    ],
+    "num_open": [
+      11,
+      7,
+      16,
+      11,
+      9,
+      5
+    ],
+    "num_unique_authors": [
+      7,
+      7,
+      8,
+      6,
+      7,
+      3
+    ],
+    "unique_authors": [
+      "pre-commit-ci[bot]",
+      "asottile",
+      "jordiclariana"
+    ],
+    "new_authors": [
+      "jordiclariana"
+    ],
+    "num_new_authors": [
+      3,
+      5,
+      3,
+      3,
+      5,
+      1
+    ],
+    "recur_authors": [
+      "pre-commit-ci[bot]",
+      "asottile"
+    ],
+    "num_recur_authors": [
+      4,
+      2,
+      5,
+      3,
+      2,
+      2
+    ],
+    "avg_tenure": [
+      76.08952380952381,
+      7.97,
+      67.75634920634921,
+      83.01935483870969,
+      73.27714285714286,
+      94.42962962962963
+    ],
+    "median_comments_before_close": [
+      0,
+      2,
+      0,
+      0,
+      0.5,
+      0
+    ],
+    "avg_comments_before_close": [
+      0.5,
+      1.8,
+      0.8,
+      2.1,
+      1.1,
+      1.3
+    ],
+    "median_comments_recent": [
+      0,
+      2,
+      0,
+      0,
+      1,
+      0
+    ],
+    "avg_comments_recent": [
+      0.5,
+      1.9,
+      0.6,
+      2.1,
+      1.4,
+      0.8
+    ],
+    "num_toxic": [
+      2,
+      2,
+      0,
+      2,
+      1,
+      1
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "neg_senti": [
+      [
+        {
+          "title": "Modify output text for `pre-commit install` when hook script is already present",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2221#issuecomment-1020360118"
+        },
+        {
+          "title": "fix: expand user in the default dir for the store",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2191#issuecomment-1006010692"
+        }
+      ],
+      [
+        {
+          "title": "Remove Python 2-specific universal wheel specification",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2264#issuecomment-1056942478"
+        },
+        {
+          "title": "Improving DinD detection",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2242#issuecomment-1034310939"
+        }
+      ],
+      [],
+      [
+        {
+          "title": "Added support for Powershell",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2340#issuecomment-1097860766"
+        },
+        {
+          "title": "Handling multiple outputs from dotnet pack",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2332#issuecomment-1091846670"
+        }
+      ],
+      [
+        {
+          "title": "Fix shellcheck warnings",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2381#issuecomment-1120200047"
+        }
+      ],
+      [
+        {
+          "title": "Add PRE_COMIMT_ARGV environment variable",
+          "url": "https://github.com/pre-commit/pre-commit/pull/2422#issuecomment-1156675175"
+        }
+      ]
+    ],
+    "max_toxic": [
+      0.051,
+      0.136,
+      0.055,
+      0.21,
+      0.218,
+      0.133
+    ],
+    "max_attack": [
+      0.15,
+      0.18,
+      0.121,
+      0.198,
+      0.17,
+      0.085
+    ],
+    "label_counts_keys": [],
+    "label_counts_values": [],
+    "long_standing": [],
+    "most_comments": []
+  },
+  {
+    "num_active_authors": [
+      40,
+      15,
+      11,
+      5,
+      6
+    ],
+    "num_issue_closed": [
+      38,
+      15,
+      7,
+      1,
+      1
+    ],
+    "num_pr_closed": [
+      11,
+      94,
+      0,
+      5,
+      2
+    ],
+    "avg_time_issue": [
+      0.2,
+      9,
+      7,
+      0,
+      0
+    ],
+    "avg_time_pr": [
+      0.2,
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+]
