@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Climate Report</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <div class="container">
+                    <div class="row mt-2">
+                        <h1 class="text-primary mb-0">Climate Report</h1>
+                        <p>Project: todogroup/ospo101</p>
+                        <!-- <a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Markdown Version</a> -->
+                    </div>
+                    <div class="row">
+                        <h6 class="text-dark fw-bold mb-1">Basic stats for the past month:</h6>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-primary">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-success fw-bold text-xs"><span>Num of active authors</span></div>
+                                            <div class="text-dark p"><span id="unique_members">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-solid fa-user-friends fa-2x text-success"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-warning">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-info fw-bold text-xs"><span>Num of new authors<br></span></div>
+                                            <div class="text-dark p"><span id="new_members">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-user fa-2x text-info"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-success">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-warning fw-bold text-xs"><span>Num of issues closed</span></div>
+                                            <div class="text-dark p"><span id="issue_closed">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-clipboard-check fa-2x text-warning"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-info">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-danger fw-bold text-xs"><span>Num of PRs closed</span></div>
+                                            <div class="row g-0 align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="text-dark p"><span id="pr_closed">&lt;number&gt;</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-code fa-2x text-danger"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-1">
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-primary">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-warning fw-bold text-xs"><span>Avg Comments to Issues</span></div>
+                                            <div class="text-dark p"><span id="i_avg_comments_top">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-comments fa-2x text-warning"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-primary">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-danger fw-bold text-xs"><span>Avg Comments to PRs</span></div>
+                                            <div class="text-dark p"><span id="p_avg_comments_top">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-comment-alt fa-2x text-danger"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-primary">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-success fw-bold text-xs"><span>Avg Days to Close Issues</span></div>
+                                            <div class="text-dark p"><span id="i_avg_close_top">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-calendar-alt fa-2x text-success"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 p-1">
+                            <div class="card shadow border-start-primary">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col">
+                                            <div class="text-uppercase text-info fw-bold text-xs"><span>Avg Days to Close PRs</span></div>
+                                            <div class="text-dark p"><span id="p_avg_close_top">&lt;number&gt;</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-calendar fa-2x text-info"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2"> <!-- labels -->
+                        <div class="col-md-6 m-0 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold m-1 pb-1">Issues by Labels in the Past Month</h6>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="issue_labels"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-0 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold m-1 pb-1">Pull Requests  by Labels in the Past Month</h6>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="PR_labels"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- row -->
+                    <div class="row">
+                        <h6 class="text-dark fw-bold mb-1">Trends in the past 6 months:</h6>
+                    </div>
+                    <div class="row">
+                        <p class="text-dark mb-1">How big is your community:</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Issue Author Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item issueSizeChartSelect" id="u_i_active">&nbsp;Active Issue Authors</button>
+                                            <button class="dropdown-item issueSizeChartSelect" id="n_i_active">&nbsp;New Issue Authors</button>
+                                            <button class="dropdown-item issueSizeChartSelect" id="i_new">&nbsp;Number of New Issues</button>
+                                            <button class="dropdown-item issueSizeChartSelect" id="i_closed">&nbsp;Number of Issues Closed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="issueSizeChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Pull Request Author Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item prSizeChartSelect" id="u_p_active">&nbsp;Active PR Authors</button>
+                                            <button class="dropdown-item prSizeChartSelect" id="n_p_active">&nbsp;New PR Authors</button>
+                                            <button class="dropdown-item prSizeChartSelect" id="p_new">&nbsp;Number of New PRs</button>
+                                            <button class="dropdown-item prSizeChartSelect" id="p_closed">&nbsp;Number of PRs Closed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="prSizeChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mb-3 m-0 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">New Authors</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display List For:</p>
+                                            <button class="dropdown-item authorList" id="new_issue_authors">&nbsp;New Issue Authors</button>
+                                            <button class="dropdown-item authorList" id="new_pr_authors">&nbsp;New PR Authors</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-0 pt-2">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                        <div id="new_members_list"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+
+                    <div class="row">
+                        <p class="text-dark mb-1">How fast did you react:</p>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Issue Response Time Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item issueTimeChartSelect" id="i_avg_close_time">&nbsp;Average Close Time for Issues</button>
+                                            <button class="dropdown-item issueTimeChartSelect" id="i_close_time">&nbsp;Median Close Time for Issues</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="issueTimeChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Pull Request Response Time Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item prTimeChartSelect" id="p_avg_close_time">&nbsp;Average Close Time for PRs</button>
+                                            <button class="dropdown-item prTimeChartSelect" id="p_close_time">&nbsp;Median Close Time for PRs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="prTimeChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Long-standing Open Conversations</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display List For:</p>
+                                            <button class="dropdown-item timeList" id="i_long_time">&nbsp;Long-standing Open Issues</button>
+                                            <button class="dropdown-item timeList" id="p_long_time">&nbsp;Long-standing Open PRs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-0 pt-2">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                        <div id="time_consuming_convs"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+
+                    <div class="row">
+                        <p class="text-dark mb-1">How active are the conversations:</p>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4 mx-0 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Issue Activity Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item issueDisChartSelect" id="i_avg_closed_comments">&nbsp;Average Num Comments for Closed Issues</button>
+                                            <button class="dropdown-item issueDisChartSelect" id="i_closed_comments">&nbsp;Median Num Comments for Closed Issues</button>
+                                            <button class="dropdown-item issueDisChartSelect" id="i_avg_open_comments">&nbsp;Average Num Comments for New Issues</button>
+                                            <button class="dropdown-item issueDisChartSelect" id="i_open_comments">&nbsp;Median Num Comments for New Issues</button>
+                                            <button class="dropdown-item issueDisChartSelect" id="i_0_comments">&nbsp;Num Issues Closed with 0 Comments</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="issueDisChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mx-0 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Pull Request Activity Stats</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Chart For:</p>
+                                            <button class="dropdown-item prDisChartSelect" id="p_avg_closed_comments">&nbsp;Average Num Comments for Closed PRs</button>
+                                            <button class="dropdown-item prDisChartSelect" id="p_closed_comments">&nbsp;Median Num Comments for Closed PRs</button>
+                                            <button class="dropdown-item prDisChartSelect" id="p_avg_open_comments">&nbsp;Average Num Comments for New PRs</button>
+                                            <button class="dropdown-item prDisChartSelect" id="p_open_comments">&nbsp;Median Num Comments for New PRs</button>
+                                            <button class="dropdown-item prDisChartSelect" id="p_0_comments">&nbsp;Num PRs Closed with 0 Comments</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                      <canvas id="prDisChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 p-1">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold mt-1 mb-0 text-s">Lengthy Unclosed Conversations</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down fa-lg text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display List For:</p>
+                                            <button class="dropdown-item commentList" id="i_most_comments">&nbsp;Longest Issue Discussions</button>
+                                            <button class="dropdown-item commentList" id="p_most_comments">&nbsp;Longest Pull Request Discussions</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-0 pt-2">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                        <div id="many_comments_convs"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    </div> <!-- row -->
+
+
+                    <div class="row mb-3">      
+                        <div class="col-md-12 m-0 p-2">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold m-1">How friendly are the conversations:</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Information For:</p>
+                                            <button class="dropdown-item toxicityList" id="toxic_issues">&nbsp;Potentially Problematic Issues</button>
+                                            <button class="dropdown-item toxicityList" id="toxic_prs">&nbsp;Potentially Problematic PRs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body pb-0">
+
+                                    <div class="row" style="height: 300px !important;">
+                                        <div class="col-md-5">
+                                        <div class="chart-area" style="height: 300px !important;">
+                                            <canvas id="toxicity_info"></canvas>
+                                        </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="row mb-0">
+                                                <h6>The highest toxicity score among the comments: <span id="highest_toxic">a</span> (range: [0, 1])</h6>
+                                            </div>
+                                            <div class="row mb-2">
+                                                <h6>The highest identity attack score among the comments: <span id="highest_attack">a</span> (range: [0, 1])</h6>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <h6 class="mb-0">Links to potentially problematic conversations*:</h6>
+                                                <div id="toxic_links"></div>
+                                            </div>
+                                            <div class="row">
+                                                <h6 class="mb-0">Links to conversations with negative sentiment**:</h6>
+                                                <div id="neg_senti_links"></div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row mb-0 pb-0 mt-4">
+                                                <p class="fa-sm py-0 my-0">* Toxicity is calculated by <a href="https://perspectiveapi.com/">Google's Perspective API</a></p>
+                                                <p class="fa-sm py-0 mt-0 mb-2">** Sentiment is calculated by <a href="https://github.com/senticr/SentiCR">SentiCR</a>, a sentiment analysis tool developed for code review data.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+
+                    <div class="row">
+                        <div class="col-md-6 m-0 p-2">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold m-0">Comparison to Other Repositories</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-caret-down text-gray-600"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="dropdown-header">Display Information For:</p>
+                                            <button class="dropdown-item compareList" id="comp_num_active">&nbsp;Number of Active Users</button>
+                                            <button class="dropdown-item compareList" id="comp_i_closed">&nbsp;Number of Issues Closed</button>
+                                            <button class="dropdown-item compareList" id="comp_p_closed">&nbsp;Number of PRs Closed</button>
+                                            <button class="dropdown-item compareList" id="comp_i_time">&nbsp;Avg Time to Close Issues</button>
+                                            <button class="dropdown-item compareList" id="comp_p_time">&nbsp;Avg Time to Close PRs</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                        <canvas id="Compare"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 m-0 p-2">
+                            <div class="card shadow mb-2">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-dark fw-bold m-1 pb-1">Tips</h6>
+                                    
+                                </div>
+                                <div class="card-body m-0 pb-2 pt-0">
+                                    <div class="chart-area" style="height: 300px !important;">
+                                        <div id="tips"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/output.json"></script>
+    <script src="assets/js/plot_default.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
