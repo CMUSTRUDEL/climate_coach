@@ -1,0 +1,366 @@
+[
+  {
+    "num_closed": [
+      9,
+      21,
+      28,
+      31
+    ],
+    "num_closed_0_comments": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "median_close_time": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      3,
+      3,
+      2.9,
+      5.7
+    ],
+    "num_open": [
+      15,
+      22,
+      23,
+      22
+    ],
+    "num_unique_authors": [
+      13,
+      20,
+      22,
+      6
+    ],
+    "unique_authors": [
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+    ],
+    "new_authors": [
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+    ],
+    "num_new_authors": [
+      8,
+      16,
+      18,
+      5
+    ],
+    "recur_authors": [
+      "A-Lamia",
+      "fprasx",
+      "artfulrobot",
+      "CaptainJack42",
+      "Stianhn",
+      "Eloitor"
+    ],
+    "num_recur_authors": [
+      5,
+      4,
+      4,
+      6
+    ],
+    "avg_tenure": [
+      1.2846153846153847,
+      1.107936507936508,
+      0.7106060606060606,
+      0.30952380952380953
+    ],
+    "median_comments_before_close": [
+      1,
+      2,
+      3,
+      2
+    ],
+    "avg_comments_before_close": [
+      2.9,
+      2.6,
+      5.8,
+      3.6
+    ],
+    "median_comments_recent": [
+      3,
+      2.5,
+      2,
+      2
+    ],
+    "avg_comments_recent": [
+      4.3,
+      4.1,
+      4.2,
+      3.5
+    ],
+    "num_toxic": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "max_toxic": [
+      0.317,
+      0.351,
+      0.23,
+      0.149
+    ],
+    "max_attack": [
+      0.206,
+      0.221,
+      0.333,
+      0.408
+    ],
+    "label_counts_keys": [
+      "question",
+      "bug",
+      "enhancement",
+      "upstream",
+      "unsupported",
+      "duplicate"
+    ],
+    "label_counts_values": [
+      70,
+      24,
+      16,
+      7,
+      5,
+      4
+    ],
+    "long_standing": [
+      {
+        "title": "Long-standing",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Long-standing",
+        "url": "https://github.com/"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Long conversation",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Long conversation",
+        "url": "https://github.com/"
+      }
+    ]
+  },
+  {
+    "num_closed": [
+      3,
+      6,
+      16,
+      14
+    ],
+    "num_closed_0_comments": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "median_close_time": [
+      0,
+      3.5,
+      0,
+      0
+    ],
+    "avg_close_time": [
+      0.7,
+      4.8,
+      0.9,
+      0.3
+    ],
+    "num_open": [
+      6,
+      5,
+      15,
+      14
+    ],
+    "num_unique_authors": [
+      4,
+      3,
+      5,
+      6
+    ],
+    "unique_authors": [
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball"
+    ],
+    "new_authors": [
+      "sophieball",
+      "sophieball",
+      "sophieball",
+      "sophieball"
+    ],
+    "num_new_authors": [
+      2,
+      1,
+      1,
+      4
+    ],
+    "recur_authors": [
+      "sophieball",
+      "sophieball"
+    ],
+    "num_recur_authors": [
+      2,
+      2,
+      4,
+      2
+    ],
+    "avg_tenure": [
+      3.9966666666666666,
+      3.8238095238095235,
+      3.596296296296296,
+      2.928205128205128
+    ],
+    "median_comments_before_close": [
+      3,
+      2,
+      1,
+      1
+    ],
+    "avg_comments_before_close": [
+      3,
+      4.5,
+      2.1,
+      1.5
+    ],
+    "median_comments_recent": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "avg_comments_recent": [
+      5.7,
+      2,
+      1.5,
+      1.4
+    ],
+    "num_toxic": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "toxic": [
+      [],
+      [],
+      [
+      {
+        "title": "Toxic",
+        "url": "https://github.com/"
+      }
+      ],
+      []
+    ],
+    "max_toxic": [
+      0.159,
+      0.133,
+      0.743,
+      0.094
+    ],
+    "max_attack": [
+      0.223,
+      0.155,
+      0.084,
+      0.105
+    ],
+    "label_counts_keys": [
+      "enhancement",
+      "bug",
+      "cleanup",
+      "documentation"
+    ],
+    "label_counts_values": [
+      14,
+      8,
+      7,
+      4
+    ],
+    "long_standing": [
+      {
+        "title": "Long-standing",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Long-standing",
+        "url": "https://github.com/"
+      }
+    ],
+    "most_comments": [
+      {
+        "title": "Long conversation",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "Long conversation",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "num_active_authors": [
+      17,
+      20,
+      14,
+      1,
+      2,
+      5
+    ],
+    "num_issue_closed": [
+      9,
+      10,
+      17,
+      0,
+      0,
+      0
+    ],
+    "num_pr_closed": [
+      3,
+      4,
+      4,
+      0,
+      0,
+      2
+    ],
+    "avg_time_issue": [
+      3,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "avg_time_pr": [
+      0.7,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  }
+]
