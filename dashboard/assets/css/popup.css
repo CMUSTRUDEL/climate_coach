@@ -1,0 +1,63 @@
+/* Popup container */
+.popup {
+  position: relative;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: auto; /*460px;*/
+  background-color: #999;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 0%;
+  margin-left: -80px;
+}
+
+.popup:hover .popuptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup2 {
+  position: relative;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 180px;
+  background-color: #999;
+  color: #fff;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 0%;
+  margin-left: -80px;
+}
+
+.popup2:hover .popuptext2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
