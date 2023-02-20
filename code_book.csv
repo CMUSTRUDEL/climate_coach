@@ -1,0 +1,120 @@
+﻿comparison characteristics
+comparison features
+comparison based on type of projects
+comparison based on type of community
+comparison based on age/length of project
+comparison based on number of dependencies
+comparison based on team size
+comparison based on ecosystems
+comparison based on popularity
+"comparison based on maintenance (e.g., documentation)"
+comparison based on newcomer-friendliness
+competitors' characteristics
+competitors have brand recognition
+competitors don't have GH integration
+competitor shows of users of product
+competitors have website for project
+potentially inappropriate issue comparison rate is confusing
+incorrect comparison
+comparison isn't useful
+ask individuals for comparison preferences
+no projects to compare to
+wrong comparison
+
+project health indicator
+health based on dependency
+health based on usage
+health based on community engagement
+health based on number of pr
+health based on number of contributors
+health based on how fast do maintainers respond
+health based on providing help
+
+think aloud - features they find useful
+number of newcomers
+contributors
+average PR time
+measure of time is too specific
+don't care about long open time of PRs
+long close time
+stats over the past six months
+good to show trends
+readability is not user friendly
+emoji line wrap at the top
+metrics more useful for a company
+wants a 3rd tool to help maintain github community
+value precise calculation
+open issues are important
+response rate
+open issue is important
+interesting metric
+nervous about toxicity rates
+number of PRs for productivity
+
+new features / improvements
+accuracy of our data
+use label for different size of requests
+do not provide suggestions to maintainers
+calling out toxicity doesn't help handle them
+care about which issues are getting attention
+big release cause delay in closing PRs
+graphs
+interactive graphs
+higher resolution for graphs
+round up the time to the largest non-zero time unit
+"alternative measure instead of average, such as median, 90p (for outlier)"
+same magnitude for all graphs
+prefers bar charts to line charts
+title and axis redundant
+graph being cut-off
+graph mirrors the state of the project
+graphs too close to text
+clarification
+how do we handle issues that are never closed
+link to toxic issues
+confusion about calculation of toxicity
+add a glossary
+"confusion about ""new contributor"" vs. ""unique contributor"""
+confused about # and avg. time of issues
+provide context
+reason for project growth (contribution vs. bug report)
+format
+build it as GH integration
+why in the form as a GH issue
+would like to use it if it's free
+customize time period
+
+toxicity
+toxicity metric is important
+deleted comments
+no toxicity in OSS
+large projects might have higher toxicity
+external contributor not in their university causes conflict
+contributor's frustration due to a lack of response
+want to see the inappropriate posts
+conflicts
+conflicts are easily resolved and not documented
+conflict was a learning experience
+use positivity to counter unpleasantness online
+constructive criticism
+
+diversity
+diversity mindset
+desire for more diversity
+encourage diversity by being welcoming
+deliberately reach out to minority groups
+advocacy for diversity on social media
+champion - encourage junior people
+humility when talking to junior
+diversity based on environment
+project is diverse because college is diverse
+low demographic diversity in the population
+github population is mostly male
+types of diversity
+diversity of thoughts
+low racial diversity
+need to improve ethnicity diversity
+challenges
+being a woman on the internet sucks (observation)
+not enough information to infer identity
+minority groups have harder time navigating the social media
