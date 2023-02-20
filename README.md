@@ -4,7 +4,9 @@
 
 - `src` folder contains all the code used to collect and analyze data.
 
-- `CHI_2023___Climate_Coach__Appendix.pdf` is the supplement material that contains tables and figures from the paper
+- `CHI_2023___Climate_Coach__Appendix.pdf` is the supplement material that contains tables and figures from the paper.
+
+- `code_book.csv` is the code we developed from the think-aloud interviews.
 
 **How to use the code**
 
